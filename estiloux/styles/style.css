@@ -19,7 +19,12 @@ header {
 header .grid-layout {
     width: 80%;
     margin: 0 auto;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -35,3 +40,16 @@ header h1 #logoux {
     font-size: 30px;
     
 }
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border: 2px solid white;
+}
+ header nav a {
+     color: white;
+     text-decoration: none;
+ }
