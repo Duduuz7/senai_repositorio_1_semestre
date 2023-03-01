@@ -1,0 +1,32 @@
+          /* reset */
+
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: aqua;
+
+}
+
+          /* HEADER */
+
+header {
+
+    background-color: #F9003D ;
+
+}
+
+header nav {
+
+    display: flex;
+    
+    
+}
+
+
