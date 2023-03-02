@@ -1,32 +1,77 @@
-          /* reset */
+/********** Import da fonte **********/
+
+@font-face {
+    font-family: Eduardo F;
+    src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
+/********** reset **********/
 
 * {
-
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
 
+
+/********** Grid-layout **********/
+
+.grid-layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: solid palegreen; */
+    height: 100%;
+    width: 100%;
 }
 
 body {
-
     background-color: aqua;
-
 }
 
-          /* HEADER */
+
+/********** HEADER **********/
 
 header {
+    background-color: #F9003D;
+    height: 60px;
+}
 
-    background-color: #F9003D ;
-
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 header nav {
-
     display: flex;
-    
-    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    /* border: 1px solid white; */
+}
+
+header nav a {
+    padding: 15px 25px;
+    font-family: "Eduardo F";
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 
+/********** MAIN **********/
+
+main .banner {
+    width: 100%;
+    background-image: url(../assets/images/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    height: 740px;
+}
+
+main h1 {
+    font-family: "Eduardo F";
+    color: white;
+}
