@@ -1,7 +1,9 @@
 /********** Import da fonte **********/
 
 @font-face {
-    font-family: Eduardo F;
+    font-family: "Courier";
+    src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
+    font-family: Bebas;
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
@@ -26,7 +28,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: #080324;
 }
 
 
@@ -54,7 +56,7 @@ header nav {
 
 header nav a {
     padding: 15px 25px;
-    font-family: "Eduardo F";
+    font-family: "Bebas";
     color: white;
     text-decoration: none;
     letter-spacing: 1px;
@@ -66,12 +68,77 @@ header nav a {
 
 main .banner {
     width: 100%;
+    height: 740px;
+    color: white;
     background-image: url(../assets/images/imagem-fundo-banner.png);
     background-repeat: no-repeat;
-    height: 740px;
+    background-size: cover;
+    background-position: bottom;
 }
 
-main h1 {
-    font-family: "Eduardo F";
+main .banner #bannerinfo h1 {
+    font-family: "Bebas";
     color: white;
+    font-size: 96px;
+    text-align: justify;
+    border-bottom: 2px solid #FFAF00;
+}
+
+main .banner #bannerinfo img {
+    margin-top: 25px;
+}
+
+main .banner-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+/********** ARTICLE MAIN **********/
+
+article p {
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    font-weight: bold;
+    color: #F9003D;
+    text-transform: uppercase;
+}
+
+main .banner #bannerinfo {
+    width: 550px;
+}
+
+
+/********** SECTION+DIV PROJETOS **********/
+
+section .section-projetos {
+    height: 800px;
+}
+
+div .projetos h2 {
+    margin-top: 25px;
+    font-family: "Bebas";
+    color: #F9003D;
+    font-size: 64px;
+}
+
+
+/********** DIV PARTICIPANTES **********/
+
+div .participantes {
+    color: white;
+}
+
+div .participantes h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+div .participantes h4 {
+    font-family: "Bebas";
+    font-size: 64px;
+    text-align: justify;
+    color: #FFAF00;
 }
