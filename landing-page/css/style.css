@@ -1,10 +1,18 @@
 /********** Import da fonte **********/
 
 @font-face {
-    font-family: "Courier";
+    font-family: Courier;
     src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
-    font-family: Bebas;
+}
+
+@font-face {
+    font-family: "Bebas";
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenS";
+    src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 
@@ -26,6 +34,16 @@
     height: 100%;
     width: 100%;
 }
+ 
+/* Esconde menu hamburguer no Desktop */
+
+header #menu-hamburguer {
+
+    display: none;
+
+}
+
+/********** DESKTOP **********/
 
 body {
     background-color: #080324;
@@ -63,6 +81,11 @@ header nav a {
     text-transform: uppercase;
 }
 
+header nav a:hover {
+    background-color: white;
+    color: #F9003D;
+}
+
 
 /********** MAIN **********/
 
@@ -86,6 +109,7 @@ main .banner #bannerinfo h1 {
 
 main .banner #bannerinfo img {
     margin-top: 25px;
+    margin-left: 25px;
 }
 
 main .banner-flex {
@@ -96,7 +120,7 @@ main .banner-flex {
 
 /********** ARTICLE MAIN **********/
 
-article p {
+div #bannerinfo p {
     margin-top: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 53px;
@@ -110,14 +134,22 @@ main .banner #bannerinfo {
 }
 
 
-/********** SECTION+DIV PROJETOS **********/
+/********** SECTION PROJETOS **********/
 
 section .section-projetos {
     height: 800px;
 }
 
+/********** DIV PROJETOS **********/
+
+div .projetos {
+    width: 500px;
+
+}
+
 div .projetos h2 {
-    margin-top: 25px;
+    margin-top: 75px;
+    margin-bottom: 80px;
     font-family: "Bebas";
     color: #F9003D;
     font-size: 64px;
@@ -127,7 +159,9 @@ div .projetos h2 {
 /********** DIV PARTICIPANTES **********/
 
 div .participantes {
+    margin-top: 240px;
     color: white;
+    width: 588px;
 }
 
 div .participantes h3 {
@@ -137,8 +171,75 @@ div .participantes h3 {
 }
 
 div .participantes h4 {
+    margin-top: 25px;
     font-family: "Bebas";
     font-size: 64px;
-    text-align: justify;
     color: #FFAF00;
+}
+
+div p {
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: "OpenS";
+}
+
+/********** SECTION FLEX **********/
+
+
+.projetos-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+
+}
+
+/********** SECTION LDD **********/
+
+
+
+
+/********** SMARTPHONE **********/
+
+@media screen and (max-width: 767px)  {
+    
+    main {
+    
+        display: none;
+    
+    }
+
+    header nav {
+
+       position: fixed;
+       top: 60px;
+       left: 0;
+       width: 80vw;
+       max-width: 360px;
+       height: 100vh;
+       background-color: #F9003D;
+       border: 1px solid black;
+       
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+
+
+    }
+
+    header nav a {
+
+        width: 150px;
+        margin-bottom: 30px;
+        border-left: 2px dashed white ;
+        border-radius: 0;
+        font-size: 24px;
+
+    }
+
+    header #menu-hamburguer {
+
+        display: block;
+    
+    }
+
 }
