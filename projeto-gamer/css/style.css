@@ -1,0 +1,67 @@
+/********* Imports de fonts *********/
+
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Titi";
+    src: url(../assets/fonts/Titillium_Web/);
+}
+
+@font-face {
+    font-family: "QuickSand";
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+/********* Reset CSS *********/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/********* BODY *********/
+
+body {
+
+    background-color: blue;
+
+}
+
+/********* HEADER *********/
+
+header {
+
+    color: white;
+    background-color: #1B1426;
+
+}
+
+.phone {
+
+    display: flex;
+
+}
+
+.mail {
+
+    display: flex;
+
+}
+
+
+div .contatos {
+    display: flex;
+    justify-content: space-around;
+
+    height: 29px;
+    width: 410px;
+    font-family: "Inter";
+
+}
+

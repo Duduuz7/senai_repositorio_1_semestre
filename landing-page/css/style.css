@@ -195,6 +195,12 @@ div p {
 
 /********** SECTION LDD **********/
 
+section .ldd {
+
+    height: 200px;
+    width: 1440px;
+
+}
 
 
 
