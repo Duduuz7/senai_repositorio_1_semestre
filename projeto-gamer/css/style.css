@@ -15,7 +15,7 @@
     src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
-/********* Reset CSS *********/
+/********* RESET CSS *********/
 
 * {
 
@@ -25,24 +25,86 @@
 
 }
 
-/********* BODY *********/
+/********* CLASSES GENERICAS *********/
 
-body {
+.grid-layout {
 
-    background-color: blue;
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
 
 }
+
+.alinhamento-between-center {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/********* BODY *********/
+
+/********* MOBILE FIRST *********/
 
 /********* HEADER *********/
 
 header {
 
+    height: 60px;
     color: white;
     background-color: #1B1426;
 
 }
 
-.phone {
+/********* HEADER TOP*********/ 
+
+header .header-top {
+
+    display: none;
+
+}
+
+/********* HEADER BOTTOM *********/
+
+header header-bottom {
+
+    height: 60px;
+
+}
+
+
+header nav { 
+
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: grey;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+header .menu-usuario {
+
+    display: none;
+    
+
+}
+
+div .header-bottom-flex {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/* .phone {
 
     display: flex;
 
@@ -57,11 +119,13 @@ header {
 
 div .contatos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     height: 29px;
     width: 410px;
     font-family: "Inter";
 
 }
+
+ */
 
