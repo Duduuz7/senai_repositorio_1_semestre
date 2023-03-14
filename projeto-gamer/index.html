@@ -67,13 +67,13 @@
 
                 <!-- HAMBURGUER VISIVEL APENAS NO CELULAR -->
 
-                <img src="assets/icons/Vector Hamburguer.svg"
+                <img onclick="mostrarMenu()" src="assets/icons/Vector Hamburguer.svg"
                     alt="Ícone de telefone. Abre e fecha o menu principal no celular">
 
-                <img src="assets/images/logotipo-gamer Logotipo Gamer.png"
-                    alt="Imagem logotipo gamer com um controle de video game ao centro" class="logo" >
+                <img src="assets/images/logotipo-gamer.png"
+                    alt="Imagem logotipo gamer com um controle de video game ao centro" >
 
-                <nav>
+                <nav class="menu" id="menu">
 
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
@@ -122,10 +122,10 @@
 
                 <!-- MENU TRES PONTOS VISIVEL SOMENTE NO CELULAR -->
 
-                <img src="assets/icons/Vector Pointer.svg"
+                <img onclick="mostrarNavegar()" src="assets/icons/Vector Pointer.svg"
                     alt="ÍCone três pontinhos, abre e fecha menu de usuários no celular">
 
-                <div class="menu-usuario">
+                <div class="menu-usuario" id="navegar">
 
                     <a href="">
                         <img src="assets/icons/VectorIcone Contato Boneco.svg" alt="Ícone de perfil">
@@ -138,6 +138,7 @@
                     <a href="">
                         <img src="assets/icons/Vector Lupa.svg" alt="Ícone de lupa de pesquisa">
                     </a>
+
                 </div>
 
             </div>
@@ -152,6 +153,18 @@
 
     <main>
 
+        <section class="main-banner">
+            
+            <div class="grid-layout"></div>
+
+                <div class="cont-banner">
+
+                    <h1>Liga Gamers</h1>
+
+                </div>
+
+
+        </section>  
 
 
     </main>
@@ -162,6 +175,19 @@
 
     </footer>
 
+<script>
+             //  PEGA A NAVBAR PELO ID  \\
+
+    function mostrarMenu() {
+        document.getElementById("menu").classList.toggle("mostrar-menu")
+        
+    }
+    
+    function mostrarNavegar() {
+        document.getElementById("navegar").classList.toggle("mostrar-navegar")
+        
+    }
+</script>
 
 </body>
 

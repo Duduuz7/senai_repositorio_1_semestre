@@ -6,14 +6,15 @@
 }
 
 @font-face {
-    font-family: "Titi";
-    src: url(../assets/fonts/Titillium_Web/);
+    font-family: "Titi Black";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
 }
 
 @font-face {
     font-family: "QuickSand";
     src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
+
 
 /********* RESET CSS *********/
 
@@ -40,6 +41,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
+
+}
+
+.mostrar-menu {
+
+    left: 0 !important;
+
+}
+
+.mostrar-navegar {
+
+    right: 0 !important;
 
 }
 
@@ -51,9 +65,15 @@
 
 header {
 
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+
     height: 60px;
     color: white;
     background-color: #1B1426;
+    
+    
 
 }
 
@@ -70,7 +90,7 @@ header .header-top {
 header header-bottom {
 
     height: 60px;
-
+    
 }
 
 
@@ -78,7 +98,9 @@ header .header-bottom nav {
 
     position: fixed;
     top: 60px;
-    left: 0;
+    left: -80vw;
+    z-index: 101;
+
     width: 80vw;
     height: calc(100vh - 60px);
    
@@ -89,6 +111,8 @@ header .header-bottom nav {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
+
+    transition: left 0.4s;
 
 }
 
@@ -117,8 +141,22 @@ header .header-bottom nav a:last-of-type {
 
 header .menu-usuario {
 
-    display: none;
-    
+    position: fixed;
+    top: 60px;
+    right: -66px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 60px;
+    height: 170px;
+
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+
+    transition: right 0.4s
 
 }
 
@@ -133,9 +171,6 @@ header .header-bottom .midias-sociais {
     justify-content: center;
     gap: 50px;
    
-   
-
-
 }
 
 div .header-bottom-flex {
@@ -150,6 +185,30 @@ header .header-bottom .midias-sociais {
     display: flex;
     justify-content: center;
     gap: 50px;
+
+}
+
+/********* MAIN *********/
+
+
+main .main-banner {
+
+    position: absolute;
+    width: 100%;
+    height: 606px;
+    top: 60px;
+    color: white;
+
+    background-image: url(../assets/images/valorant-pergunte-3-scaled\ 1\ Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main h1 {
+
+    font-size: 40px;
+    font-family: "Titi Black";
 
 }
 
