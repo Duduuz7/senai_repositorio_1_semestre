@@ -15,6 +15,11 @@
     src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: "Titi Bold";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
 
 /********* RESET CSS *********/
 
@@ -27,6 +32,12 @@
 }
 
 /********* CLASSES GENERICAS *********/
+
+/* body {
+
+    background-color: #F9AA01;
+
+} */
 
 .grid-layout {
 
@@ -66,6 +77,8 @@
 header {
 
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     z-index: 100;
 
@@ -106,7 +119,7 @@ header .header-bottom nav {
    
 
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
-    backdrop-filter: blur(45px);
+    backdrop-filter: blur(5px);
 
     display: flex;
     flex-direction: column;
@@ -154,7 +167,7 @@ header .menu-usuario {
     height: 170px;
 
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
-    backdrop-filter: blur(45px);
+    backdrop-filter: blur(5px);
 
     transition: right 0.4s
 
@@ -190,10 +203,14 @@ header .header-bottom .midias-sociais {
 
 /********* MAIN *********/
 
+main {
+
+    margin-top: 60px;
+
+}
 
 main .main-banner {
 
-    position: absolute;
     width: 100%;
     height: 606px;
     top: 60px;
@@ -205,37 +222,113 @@ main .main-banner {
 
 }
 
+main .cont-banner {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 75px;
+
+}
+
 main h1 {
 
     font-size: 40px;
     font-family: "Titi Black";
+    color: white;
+    text-shadow: 0 0 7px #FD4255;
+
+    padding-top: 20px;
+
+}
+
+section .bt-sobre {
+
+    /* padding-top: 425px; */
+
+    color: #1B1426;
+    text-decoration: none;
+    font-family: "Titi Bold";
+    font-size: 24px;
+
+
+    width: 170px;
+    height: 40px;
+    background-color: #F9AA01;
+    border-radius: 8px;
+
+    text-align: center;
+
+}
+
+/********* SESSAO JOGOS *********/
+ 
+section.jogos {
+
+    background-color: #1B1426;
+    height: 590px;
 
 }
 
 
-
-/* .phone {
+.flex-jgs {
 
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    
+}
+
+/********* SESSAO ENTRE PARA O TIME *********/
+
+section.time {
+
+    width: 100%;
+    height: 1335px;
+    background-color: #F9AA01;
 
 }
 
-.mail {
+.time h2 {
 
-    display: flex;
+    padding-top: 75px;
 
-}
-
-
-div .contatos {
-    display: flex;
-    justify-content: space-between;
-
-    height: 29px;
-    width: 410px;
-    font-family: "Inter";
+    color: #1B1426;
+    font-size: 18px;
+    font-family: "Titi Black";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
 
 }
 
- */
+/* .time hr {
 
+
+
+} */
+
+
+/* Tablets 768px */
+
+@media screen and (min-width:768px) {}
+
+/* Desktop */
+
+@media screen and (min-width:1200px) {
+
+    .grid-layout {
+
+        width: 100%;
+        max-width: 1200px;
+
+    }
+
+    /* ESCONDE ELEMENTOS DESNECESSARIOS */
+
+    
+
+}
