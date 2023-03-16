@@ -85,12 +85,12 @@ header {
     height: 60px;
     color: white;
     background-color: #1B1426;
-    
-    
+
+
 
 }
 
-/********* HEADER TOP*********/ 
+/********* HEADER TOP*********/
 
 header .header-top {
 
@@ -103,11 +103,11 @@ header .header-top {
 header header-bottom {
 
     height: 60px;
-    
+
 }
 
 
-header .header-bottom nav { 
+header .header-bottom nav {
 
     position: fixed;
     top: 60px;
@@ -116,7 +116,7 @@ header .header-bottom nav {
 
     width: 80vw;
     height: calc(100vh - 60px);
-   
+
 
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(5px);
@@ -129,7 +129,7 @@ header .header-bottom nav {
 
 }
 
-header .header-bottom nav > a {
+header .header-bottom nav>a {
 
     display: flex;
     justify-content: center;
@@ -170,7 +170,6 @@ header .menu-usuario {
     backdrop-filter: blur(5px);
 
     transition: right 0.4s
-
 }
 
 header .header-bottom .midias-sociais {
@@ -183,7 +182,7 @@ header .header-bottom .midias-sociais {
     display: flex;
     justify-content: center;
     gap: 50px;
-   
+
 }
 
 div .header-bottom-flex {
@@ -264,7 +263,7 @@ section .bt-sobre {
 }
 
 /********* SESSAO JOGOS *********/
- 
+
 section.jogos {
 
     background-color: #1B1426;
@@ -279,7 +278,7 @@ section.jogos {
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
-    
+
 }
 
 /********* SESSAO ENTRE PARA O TIME *********/
@@ -289,6 +288,7 @@ section.time {
     width: 100%;
     height: 1335px;
     background-color: #F9AA01;
+    color: white;
 
 }
 
@@ -302,14 +302,39 @@ section.time {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    margin-bottom: 30px;
 
 }
 
-/* .time hr {
+.time hr {
 
+    position: absolute;
+    left: 22%;
+
+    border: #1B1426 1px solid;
+    width: 204px;
+
+}
+  
+/********* SESSAO TIME, JOGOS *********/
+
+.kill {
+
+    position: relative;
+    top: 90px;
+
+}
+
+/* section .time .jogos-flex {
 
 
 } */
+
+
+
+
+
+
 
 
 /* Tablets 768px */
@@ -327,8 +352,81 @@ section.time {
 
     }
 
+    header {
+
+        height: 140px;
+
+    }
+    
+    header .header-top {
+
+        display: block;
+        border-bottom: #F9AA01 2px solid;
+
+    }
+
+    header .header-top .contatos {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+
+    }
+
+    header .header-top .midias-sociais {
+
+        width: 140px;
+
+    }
+
+
+
     /* ESCONDE ELEMENTOS DESNECESSARIOS */
 
-    
+    header .header-bottom .menu-hamburger,
+    header .header-bottom .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .mail,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+
+    header .logo {
+
+        width: 200px;
+
+    }
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+        justify-content: space-between;
+        padding-bottom: 0;
+    }
+
+    header .header-bottom nav>a {
+
+        border: none;
+        padding: 0;
+
+    }
+
+
+    header .header-bottom .menu-usuario {
+
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+
+    }
 
 }
