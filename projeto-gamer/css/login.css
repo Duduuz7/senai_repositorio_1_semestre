@@ -1,0 +1,247 @@
+/********* Imports de fonts *********/
+
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Titi Black";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: "QuickSand";
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Titi Bold";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+
+/********* RESET CSS *********/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/********* CLASSES GENERICAS *********/
+
+/* body {
+
+    background-color: #F9AA01;
+
+} */
+
+.grid-layout {
+
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+
+}
+
+.alinhamento-between-center {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.mostrar-menu {
+
+    left: 0 !important;
+
+}
+
+.mostrar-navegar {
+
+    right: 0 !important;
+
+}
+
+/********* MOBILE FIRST *********/
+
+/********* HEADER *********/
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+
+    height: 60px;
+    color: white;
+    background-color: #1B1426;
+
+
+
+}
+
+/********* HEADER TOP*********/
+
+header .header-top {
+
+    display: none;
+
+}
+
+/********* HEADER BOTTOM *********/
+
+header header-bottom {
+
+    height: 60px;
+
+}
+
+
+header .header-bottom nav {
+
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    z-index: 101;
+
+    width: 80vw;
+    height: calc(100vh - 60px);
+
+
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+    transition: left 0.4s;
+
+}
+
+header .header-bottom nav>a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border-bottom: 2px solid #F9AA01;
+    color: white;
+    text-decoration: none;
+    padding: 30px 0;
+    font-family: Inter;
+    font-size: 15px;
+
+
+}
+
+header .header-bottom nav a:last-of-type {
+
+    border-bottom: none;
+
+}
+
+header .menu-usuario {
+
+    position: fixed;
+    top: 60px;
+    right: -66px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 60px;
+    height: 170px;
+
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(5px);
+
+    transition: right 0.4s
+}
+
+header .header-bottom .midias-sociais {
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+div .header-bottom-flex {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .header-bottom .midias-sociais {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+/********* MAIN *********/
+
+main {
+
+    margin-top: 60px;
+    height: 687px;
+
+    background-image: url(../assets/images/Banner_Login\ Banner\ Login.png);
+    background-size: contain;
+    background-position: center;
+
+}
+
+main .log {
+
+    height: 462px;
+    border: 1px solid red;
+
+    background-image: linear-gradient( );
+
+}
+
+form .titulo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main .titulo hr {
+
+    border: #F9AA01 2px solid;
+    width: 90px;
+
+}
+
+main .titulo h1 {
+
+    color: white;
+    font-family: "Titi Black";
+
+    font-size: 28px;
+    text-transform: uppercase;
+
+}
+
