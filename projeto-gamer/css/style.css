@@ -287,7 +287,7 @@ section.time {
 
     display: flex;
     width: 100%;
-    height: 1335px;
+    height: 1535px;
     background-color: #F9AA01;
     color: white;
 
@@ -319,21 +319,111 @@ section.time {
   
 /********* SESSAO TIME, JOGOS *********/
 
-.kill {
+.kill-flex {
 
     position: relative;
     top: 90px;
 
 }
 
-/* section .time .jogos-flex {
+section .jogos-flex {
+
+    width: 231px;
+    height: 300px;
+    border-radius: 8px;
+
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
+    backdrop-filter: blur(6px);
+    position: absolute;
+    left: 110px;
+    top: 130px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
 
 
-} */
 
+}
 
+.jogos-flex h3 {
 
+    font-size: 18px;
+    font-family: "Titi Black";
+    text-shadow: #C6A5E5 0 0 6px;
+    text-transform: uppercase;
+    
+}
 
+.jogos-flex p {
+
+    font-size: 13px;
+    font-family: "Quicksand";
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+/********* SESSAO TIME, PROFESSORES *********/
+
+.val-flex {
+
+    position: relative;
+    top: 130px;
+
+}
+
+section .prof-flex {
+
+    width: 231px;
+    height: 300px;
+    border-radius: 8px;
+
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
+    backdrop-filter: blur(6px);
+    position: absolute;
+    left: 0px;
+    top: 112px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.prof-flex h3 {
+
+    font-size: 18px;
+    font-family: "Titi Black";
+    text-shadow: #C6A5E5 0 0 6px;
+    text-transform: uppercase;
+    
+}
+
+.prof-flex p {
+
+    font-size: 13px;
+    font-family: "Quicksand";
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.align {
+
+    width: 162px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+/********* SESSAO NOTICIAS *********/
 
 
 
@@ -503,11 +593,13 @@ section.time {
 
     }
 
+}
+
 /********* MAIN TIME*********/
 
 
 
 
 
-}
+
 
