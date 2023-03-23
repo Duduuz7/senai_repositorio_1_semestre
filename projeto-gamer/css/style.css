@@ -425,6 +425,166 @@ section .prof-flex {
 
 /********* SESSAO NOTICIAS *********/
 
+section.noticias {
+
+    height: 3675px;
+    background-image: url(../assets/images/backgrund_notícias.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.titulo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.titulo h4 {
+
+    padding-top: 60px;
+
+    color: white;
+    font-size: 18px;
+    font-family: "Titi Black";
+    text-transform: uppercase;
+
+}
+
+.titulo hr {
+
+    margin-top: 25px;
+    width: 204px;
+    border: 1px solid #F9AA01;
+
+}
+
+  /* ARTICLES NOTICIAS */
+
+.flex-nt {
+
+    padding-top: 110px;
+    height: 3375px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 40px;
+
+}
+
+article.not-rp {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 335px;
+    height: 387px;
+
+    border-radius: 8px;
+
+    background-image: linear-gradient( to right bottom, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.80));
+
+}
+
+h5 {
+
+    color: white;
+    font-size: 24px;
+    font-family: "Titi Bold";
+    padding-top: 22px;
+
+}
+
+.not-rp p {
+
+    color: white;
+    font-family: "QuickSand";
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 18px;
+
+
+}
+
+article .align-texts {
+
+    width: 285px;
+
+}
+
+/********* FOOTER *********/
+
+footer {
+
+    height: 1531px;
+    background-image: url(../assets/images/backgroung_footer.png);
+    box-shadow: inset 0 65px 25px black;
+
+}
+
+/********* LOGO, P, MIDIAS *********/
+
+
+.logo-redes {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.logo-foot {
+
+    width: 110px;
+    height: 32px;
+    margin-left: 115px;
+
+}
+
+.logo-p {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 45px;
+
+}
+
+.logo-p p {
+
+    color: white;
+    font-size: 14px;
+    font-family: "QuickSand";
+
+}
+
+.icones-flex {
+
+    display: flex;
+    justify-content: space-between;
+
+    gap: 110px;
+
+}
+
+/********* LINKS UTEIS *********/
+
+.titulolink-flex h6 {
+
+    color: white;
+    font-size: 30px;
+    font-family: "Titi Black";
+
+
+}
+
 
 
 
