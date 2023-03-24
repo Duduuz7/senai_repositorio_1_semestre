@@ -361,8 +361,9 @@ section .jogos-flex {
 
     font-size: 13px;
     font-family: "Quicksand";
-    text-align: center;
+    text-align: justify;
     padding-bottom: 30px;
+    width: 170px;
 
 }
 
@@ -407,8 +408,9 @@ section .prof-flex {
 
     font-size: 13px;
     font-family: "Quicksand";
-    text-align: center;
-    padding-bottom: 30px;
+    text-align: justify;
+    padding-top: 15px;
+    width: 170px;
 
 }
 
@@ -525,6 +527,7 @@ footer {
     height: 1531px;
     background-image: url(../assets/images/backgroung_footer.png);
     box-shadow: inset 0 65px 25px black;
+    position: relative;
 
 }
 
@@ -571,10 +574,17 @@ footer {
     justify-content: space-between;
 
     gap: 110px;
+    padding-top: 80px;
 
 }
 
 /********* LINKS UTEIS *********/
+
+.titulolink-flex {
+
+    padding-top: 100px;
+
+}
 
 .titulolink-flex h6 {
 
@@ -585,7 +595,164 @@ footer {
 
 }
 
+.titulolink-flex hr {
 
+    border: #F9AA01 2px solid;
+    width: 113px;
+
+}
+
+
+.links-top {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+
+}
+
+.links-top > p {
+
+    color: white;
+    font-size: 16px;
+    font-family: "Titi Bold";
+
+}
+
+.links-top hr {
+
+    border: #F9AA01 solid 1px;
+    width: 15px;
+
+}
+
+.links-bottom p {
+
+    color: white;
+    font-size: 16px;
+    font-family: "Titi Bold";
+
+}
+
+.links-bottom hr {
+
+    border: #F9AA01 solid 1px;
+    width: 15px;
+
+}
+
+.links-bottom {
+
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.log-linkhr {
+
+    position: absolute;
+    left: 18px;
+    top: 580px;
+
+}
+
+.eq-linkhr {
+
+    position: absolute;
+    left: 123px;
+    top: 580px;
+
+}
+
+.eq-link {
+
+    position: absolute;
+    top: 568px;
+    left: 164px;
+
+}
+
+.log-link {
+
+    position: absolute;
+    top: 568px;
+    left: 59px;
+
+}
+
+/********* CONTATOS *********/
+
+.contatos-titulo h6 {
+
+    color: white;
+    font-size: 30px;
+    font-family: "Titi Black";
+
+}
+
+.contatos-titulo hr {
+
+    border: #F9AA01 2px solid;
+    width: 102px;
+
+}
+
+.contatos-titulo {
+
+    padding-top: 100px;
+
+}
+
+.conteudo-contatos h6 {
+
+    color: #F9AA01;
+    font-size: 16px;
+    font-family: "Titi Bold";
+
+}
+
+.conteudo-contatos p {
+
+    color: white;
+    font-size: 16px;
+    font-family: "Titi Bold";
+
+}
+
+.conteudo-contatos {
+
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+/********* NEWSLETTER *********/
+
+.newsletter-titulo h6 {
+
+    color: white;
+    font-size: 30px;
+    font-family: "Titi Black";
+
+}
+
+.newsletter-titulo hr {
+
+    border: #F9AA01 2px solid;
+    width: 102px;
+
+}
+
+.newsletter-titulo {
+
+    padding-top: 140px;
+
+}
 
 
 /* Tablets 768px */

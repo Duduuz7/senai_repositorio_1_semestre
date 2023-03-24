@@ -329,10 +329,10 @@ main .email input {
 
 .email input::placeholder {
 
-    color: white;
+   color: white;
     font-family: "Titi Reg";
     font-size: 16px;
-
+ 
 }
 
 main .senha {
