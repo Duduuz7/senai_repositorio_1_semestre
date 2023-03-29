@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\bin\Debug\net7.0\exercicios-back.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\bin\Debug\net7.0\exercicios-back.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\bin\Debug\net7.0\exercicios-back.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\bin\Debug\net7.0\exercicios-back.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\bin\Debug\net7.0\exercicios-back.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\refint\exercicios-back.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\exercicios-back.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicios-back\obj\Debug\net7.0\ref\exercicios-back.dll

@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\bin\Debug\net7.0\projeto-imc.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\bin\Debug\net7.0\projeto-imc.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\bin\Debug\net7.0\projeto-imc.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\bin\Debug\net7.0\projeto-imc.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\bin\Debug\net7.0\projeto-imc.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\refint\projeto-imc.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\projeto-imc.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-imc\obj\Debug\net7.0\ref\projeto-imc.dll

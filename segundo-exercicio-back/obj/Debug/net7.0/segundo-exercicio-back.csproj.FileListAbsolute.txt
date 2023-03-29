@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\bin\Debug\net7.0\segundo-exercicio-back.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\bin\Debug\net7.0\segundo-exercicio-back.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\bin\Debug\net7.0\segundo-exercicio-back.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\bin\Debug\net7.0\segundo-exercicio-back.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\bin\Debug\net7.0\segundo-exercicio-back.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\refint\segundo-exercicio-back.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\segundo-exercicio-back.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\segundo-exercicio-back\obj\Debug\net7.0\ref\segundo-exercicio-back.dll
