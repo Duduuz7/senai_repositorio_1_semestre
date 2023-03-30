@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\bin\Debug\net7.0\est-ex-1.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\bin\Debug\net7.0\est-ex-1.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\bin\Debug\net7.0\est-ex-1.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\bin\Debug\net7.0\est-ex-1.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\bin\Debug\net7.0\est-ex-1.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\refint\est-ex-1.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\est-ex-1.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\est-ex-1\obj\Debug\net7.0\ref\est-ex-1.dll

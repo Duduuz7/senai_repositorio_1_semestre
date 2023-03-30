@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\bin\Debug\net7.0\estruturas-condicionais.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\bin\Debug\net7.0\estruturas-condicionais.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\bin\Debug\net7.0\estruturas-condicionais.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\bin\Debug\net7.0\estruturas-condicionais.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\bin\Debug\net7.0\estruturas-condicionais.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\refint\estruturas-condicionais.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\estruturas-condicionais\obj\Debug\net7.0\ref\estruturas-condicionais.dll
