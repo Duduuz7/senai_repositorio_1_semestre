@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\bin\Debug\net7.0\condicionais-ex6.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\bin\Debug\net7.0\condicionais-ex6.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\bin\Debug\net7.0\condicionais-ex6.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\bin\Debug\net7.0\condicionais-ex6.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\bin\Debug\net7.0\condicionais-ex6.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\refint\condicionais-ex6.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\condicionais-ex6.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\condicionais-ex6\obj\Debug\net7.0\ref\condicionais-ex6.dll

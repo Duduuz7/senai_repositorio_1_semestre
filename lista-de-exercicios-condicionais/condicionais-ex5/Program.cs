@@ -8,10 +8,10 @@ int maca = int.Parse (Console.ReadLine()!);
 if (maca >= 12)
 {
    float valor1 = (maca * 0.25f);
-   Console.WriteLine($"O total da compra foi: {valor1}");
+   Console.WriteLine($"O total da compra foi: {Math.Round(valor1, 2)}");
 }
 else 
 {
     float valor2 = (maca * 0.30f);
-    Console.WriteLine($"O total da compra foi: {valor2}");
+    Console.WriteLine($"O total da compra foi: {Math.Round(valor2, 2)}");
 }
