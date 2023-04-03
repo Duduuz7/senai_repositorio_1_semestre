@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\bin\Debug\net7.0\estruturas-switch-case.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\bin\Debug\net7.0\estruturas-switch-case.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\bin\Debug\net7.0\estruturas-switch-case.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\bin\Debug\net7.0\estruturas-switch-case.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\bin\Debug\net7.0\estruturas-switch-case.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\refint\estruturas-switch-case.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\estruturas-switch-case.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-switch-case\obj\Debug\net7.0\ref\estruturas-switch-case.dll
