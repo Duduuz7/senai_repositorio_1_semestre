@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\bin\Debug\net7.0\exercicio-bk.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\bin\Debug\net7.0\exercicio-bk.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\bin\Debug\net7.0\exercicio-bk.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\bin\Debug\net7.0\exercicio-bk.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\bin\Debug\net7.0\exercicio-bk.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\refint\exercicio-bk.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\exercicio-bk.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-bk\obj\Debug\net7.0\ref\exercicio-bk.dll

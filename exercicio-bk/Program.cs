@@ -14,7 +14,7 @@ Console.WriteLine(@$"
 ----------------------------
 | Menu Bebidas Burger King |
 |                          |
-|    Informe o pedido      |   
+|     Números bebidas      |   
 |                          |
 |      1. Coca cola        | 
 |        2. Pepsi          |
@@ -24,34 +24,64 @@ Console.WriteLine(@$"
 
 ");
 
-int bebidas = int.Parse(Console.ReadLine()!);
-
 Console.WriteLine($"Informe o pedido: ");
 int pedido = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine(@$" 
+
 Deseja acrescentar gelo à sua bebida ?
 Digite 1 para sim e 2 para não !
+
 ");
 int gelo = int.Parse(Console.ReadLine()!);
-
 int resultado = 0;
 
 // Processamento / Saída
 
-switch (bebidas)
+switch (pedido)
 {
     case 1:
 
         if (gelo == 1)
-        Console.WriteLine($"Sua bebida é Coca-Cola com adicional de gelo");
-        
+            Console.WriteLine($"Sua bebida é Coca-Cola com adicional de gelo");
+
+        else
+            Console.WriteLine($"Sua bebida é Coca-Cola sem gelo");
+
+        break;
+
+    case 2:
+
+        if (gelo == 1)
+            Console.WriteLine($"Sua bebida é Pepsi com adicional de gelo");
+
+        else
+            Console.WriteLine($"Sua bebida é Pepsi sem gelo");
+
+        break;
+
+    case 3:
+
+        if (gelo == 1)
+            Console.WriteLine($"Sua bebida é Fanta com adicional de gelo");
+
+        else
+            Console.WriteLine($"Sua bebida é Fanta sem gelo");
+
+        break;
+
+    case 4:
+
+        if (gelo == 1)
+            Console.WriteLine($"Sua bebida é Guaraná com adicional de gelo");
+
+        else
+            Console.WriteLine($"Sua bebida é Guaraná sem gelo");
+
         break;
 
     default:
-
+        Console.WriteLine($"Pedido inválido, tente novamente !");
 
         break;
 }
-
-
