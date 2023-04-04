@@ -33,6 +33,7 @@ Deseja acrescentar gelo à sua bebida ?
 Digite 1 para sim e 2 para não !
 
 ");
+
 int gelo = int.Parse(Console.ReadLine()!);
 int resultado = 0;
 
@@ -45,8 +46,12 @@ switch (pedido)
         if (gelo == 1)
             Console.WriteLine($"Sua bebida é Coca-Cola com adicional de gelo");
 
-        else
+        else if (gelo == 2)
             Console.WriteLine($"Sua bebida é Coca-Cola sem gelo");
+
+        else 
+            Console.WriteLine($"Opção inválida !");
+            
 
         break;
 
@@ -55,9 +60,12 @@ switch (pedido)
         if (gelo == 1)
             Console.WriteLine($"Sua bebida é Pepsi com adicional de gelo");
 
-        else
+        else if (gelo == 2)
             Console.WriteLine($"Sua bebida é Pepsi sem gelo");
 
+        else 
+            Console.WriteLine($"Opção inválida !");
+        
         break;
 
     case 3:
@@ -65,8 +73,11 @@ switch (pedido)
         if (gelo == 1)
             Console.WriteLine($"Sua bebida é Fanta com adicional de gelo");
 
-        else
+        else if (gelo == 2)
             Console.WriteLine($"Sua bebida é Fanta sem gelo");
+
+        else 
+            Console.WriteLine($"Opção inválida !");
 
         break;
 
@@ -75,8 +86,11 @@ switch (pedido)
         if (gelo == 1)
             Console.WriteLine($"Sua bebida é Guaraná com adicional de gelo");
 
-        else
+        else if (gelo == 2)
             Console.WriteLine($"Sua bebida é Guaraná sem gelo");
+
+        else 
+            Console.WriteLine($"Opção inválida !");
 
         break;
 

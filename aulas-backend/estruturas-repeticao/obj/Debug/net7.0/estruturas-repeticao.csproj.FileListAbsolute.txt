@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\bin\Debug\net7.0\estruturas-repeticao.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\bin\Debug\net7.0\estruturas-repeticao.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\bin\Debug\net7.0\estruturas-repeticao.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\bin\Debug\net7.0\estruturas-repeticao.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\bin\Debug\net7.0\estruturas-repeticao.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\refint\estruturas-repeticao.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\estruturas-repeticao.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\estruturas-repeticao\obj\Debug\net7.0\ref\estruturas-repeticao.dll
