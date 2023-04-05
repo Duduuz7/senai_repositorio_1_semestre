@@ -1,4 +1,6 @@
-﻿// //Valor Inicial
+﻿// WHILE ***************************
+
+// //Valor Inicial
 // int x = 1;
 
 // while (x <= 10) // Enquanto x for menor ou igual a 10
@@ -44,7 +46,7 @@
 
 
 
-
+// DO WHILE *********************
 
 
 // bool idadeCerta = false;
@@ -64,3 +66,47 @@
 //     }
     
 // } while (idadeCerta == false);
+
+
+
+
+
+
+
+// FOR *******************
+
+
+// for (inicializador; condição; iterador)
+
+// for(int x = 0; x <= 100; x++)
+// {
+//     Console.WriteLine(x);
+// }
+
+
+
+
+
+// operador de incremento
+
+// de 1 em 1
+
+//x++;
+//x = x+1;
+//x+=1;
+
+// acima de 1
+
+//x = x+3;
+//x += 3;
+
+
+
+
+
+//Programa para imprimir valores de 500 até 0, decrementar de 5 em 5
+
+for (int y = 500; y >= 0; y -= 5)
+{
+    Console.WriteLine(y);
+}
