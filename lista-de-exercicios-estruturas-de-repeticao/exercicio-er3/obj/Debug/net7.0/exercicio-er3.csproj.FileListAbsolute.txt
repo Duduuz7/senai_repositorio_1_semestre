@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\bin\Debug\net7.0\exercicio-er3.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\bin\Debug\net7.0\exercicio-er3.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\bin\Debug\net7.0\exercicio-er3.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\bin\Debug\net7.0\exercicio-er3.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\bin\Debug\net7.0\exercicio-er3.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\refint\exercicio-er3.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\exercicio-er3.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-estruturas-de-repeticao\exercicio-er3\obj\Debug\net7.0\ref\exercicio-er3.dll
