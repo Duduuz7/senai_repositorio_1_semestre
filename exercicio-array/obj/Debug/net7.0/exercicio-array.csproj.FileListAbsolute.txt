@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\bin\Debug\net7.0\exercicio-array.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\bin\Debug\net7.0\exercicio-array.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\bin\Debug\net7.0\exercicio-array.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\bin\Debug\net7.0\exercicio-array.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\bin\Debug\net7.0\exercicio-array.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\refint\exercicio-array.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\exercicio-array.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\exercicio-array\obj\Debug\net7.0\ref\exercicio-array.dll
