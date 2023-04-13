@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\bin\Debug\net7.0\exercicio-fixacao-geral-2.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\bin\Debug\net7.0\exercicio-fixacao-geral-2.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\bin\Debug\net7.0\exercicio-fixacao-geral-2.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\bin\Debug\net7.0\exercicio-fixacao-geral-2.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\bin\Debug\net7.0\exercicio-fixacao-geral-2.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\refint\exercicio-fixacao-geral-2.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\exercicio-fixacao-geral-2.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\lista-de-exercicios-de-fixacao-geral\exercicio-fixacao-geral-2\obj\Debug\net7.0\ref\exercicio-fixacao-geral-2.dll

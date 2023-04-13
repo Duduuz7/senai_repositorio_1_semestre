@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\bin\Debug\net7.0\exercicio-de-fixacao-array-2.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\bin\Debug\net7.0\exercicio-de-fixacao-array-2.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\bin\Debug\net7.0\exercicio-de-fixacao-array-2.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\bin\Debug\net7.0\exercicio-de-fixacao-array-2.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\bin\Debug\net7.0\exercicio-de-fixacao-array-2.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\refint\exercicio-de-fixacao-array-2.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\exercicio-de-fixacao-array-2.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-funcoes\obj\Debug\net7.0\ref\exercicio-de-fixacao-array-2.dll

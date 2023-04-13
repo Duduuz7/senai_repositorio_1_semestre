@@ -41,7 +41,7 @@
 // criar método para multiplicar 2 números
 
 
-static float mult(float n1, float n2){
+static float Mult(float n1, float n2){
 
    return (n1 * n2);
 }
@@ -53,7 +53,7 @@ Console.WriteLine($"Digite o segundo número: ");
 float n2 = float.Parse(Console.ReadLine()!);
 
 Console.WriteLine(@$"
-O resultado da multiplicação é: {mult(n1,n2)}
+O resultado da multiplicação é: {Mult(n1,n2)}
 ");
 
 
@@ -62,9 +62,9 @@ O resultado da multiplicação é: {mult(n1,n2)}
 
 // criar método para dividir 2 números
 
-// static float div(float n1, float n2){
+// static float Div(float n1, float n2){
 
-//    return (n1 * n2);
+//    return (n1 / n2);
 // }
 
 // Console.WriteLine($"Digite o primeiro número: ");
@@ -80,9 +80,9 @@ O resultado da multiplicação é: {mult(n1,n2)}
 
 // criar método para subtrair 2 números
 
-// static float sub(float n1, float n2){
+// static float Sub(float n1, float n2){
 
-//    return (n1 * n2);
+//    return (n1 - n2);
 // }
 
 // Console.WriteLine($"Digite o primeiro número: ");
