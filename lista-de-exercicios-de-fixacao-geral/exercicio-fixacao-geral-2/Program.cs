@@ -1,4 +1,4 @@
-﻿// Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+﻿// 2 - Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 // Álcool:
 // . até 20 litros, desconto de 3% por litro Álcool
 // . acima de 20 litros, desconto de 5% por litro
@@ -11,107 +11,69 @@
 // sabendo-se que o preço do litro da gasolina é R$ 5,30 e o preço do litro do álcool é R$ 4,90.
 // Dica: utilize switch case e funções/métodos para otimizar o algorítimo.
 
-bool repetir = true;
-// float alcool = 4.90f;
-// float gasolina = 5.30f;
-float litros = 0;
-float valor = 0;
+using System.Globalization;
 
+bool repetir = true;
+char tipoCombustivel;
 do
 {
+   Console.WriteLine(@$"
 
+Qual tipo de combustível você deseja?
 
-    Console.WriteLine(
-        @$"Qual combustível você utilizou para abastecer seu veiculo ? 
-    
-    Utilize 'A' para álcool e 'G' para gasolina.
+(a) para alcool
 
-    ");
+    ou
 
-    char comb = char.Parse(Console.ReadLine()!);
+(g) gasolina
+");
+tipoCombustivel = char.Parse(Console.ReadLine());
 
-    if (comb == 'A')
+if (tipoCombustivel == 'a')
+{
+    repetir = false;
+    Console.WriteLine($"Você escolheu alcool.");
+}
+
+else if (tipoCombustivel == 'g')
+{
+    repetir = false;
+    Console.WriteLine($"Você escolheu gasolina.");
+} 
+
+else
+{
+    Console.WriteLine($"Opção invalida, tente novamente!");
+    repetir = true;    
+}
+} while (repetir);
+
+Console.WriteLine($"Quantos litros você deseja?");
+float litros = float.Parse(Console.ReadLine());
+
+static float Abastecer(float litros, char tipoCombustivel)
+{
+    if (litros <= 20 && tipoCombustivel == 'a')
     {
-        repetir = false;
-        Console.WriteLine($"Você escolheu álcool !");
-        Console.WriteLine($"Quantos litros de álcool você deseja ?");
-        float alcool = float.Parse(Console.ReadLine()!);
-
-       if (alcool <= 20)
-       {
-            valor = alcool * 4.90f;
-
-            static float Desconto (float valor)
-            {
-                return valor * 3 / 100;
-            }
-
-            
-       }
-        
-        
-        
+        return litros * 4.90F - 4.90F * 3 / 100;
     }
 
-    else if (comb == 'G')
+    else if (litros > 20 && tipoCombustivel == 'a')
     {
-        repetir = false;
-        Console.WriteLine($"Você escolheu gasolina !");
-        Console.WriteLine($"Quantos litros de gasolina você deseja ?");
-        float gasolina = float.Parse(Console.ReadLine()!);
+        return litros * 4.90F - 4.90F * 5 / 100;
+    }
+
+    else if (litros <= 20 && tipoCombustivel == 'g')
+    {
+        return litros * 5.30F - 5.30F * 4 / 100;
     }
 
     else
     {
-        repetir = true;
-        Console.WriteLine($"Opção inválida, tente novamente !");
-        
+        return litros * 5.30F - 5.30F * 6 / 100;
     }
+}
 
-} while (repetir);
+float resultado = Abastecer(litros, tipoCombustivel);
 
-
-
-    // Console.WriteLine($"Quantos litros você abasteceu ?");
-    // litros = float.Parse(Console.ReadLine()!);
-
-    // switch (comb)
-    // {
-    //     case 'A':
-
-    //         valor = litros * alcool;
-
-    //         break;
-
-    //     case 'G':
-
-    //         valor = litros * gasolina;
-
-    //         break;
-    //     default:
-
-    //         repetir = true;
-
-    //         break;
-
-    // }
-
-    // static float desconto (float valor)
-    // {
-        
-    // }
-
-
-
-
-
-
-
-
-
-// static float Gasolina (float litro)
-// {
-
-//     if (litros < 20)
-
-// }
+Console.WriteLine($"Você vai pagar {resultado.ToString("C", new CultureInfo("pt-BR"))} pelo combustível !");
