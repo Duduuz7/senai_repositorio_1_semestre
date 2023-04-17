@@ -5,21 +5,54 @@
 
 // contains true false, dentro do if se for true achei se for false nao achei
 
-string[] nomes = new string[10];
-for (int i = 0; i < 10; i++)
+//declarando um array
+string[] nomes = new string[3];
+
+bool nomeEncontrado = false;
+
+for (var i = 0; i < nomes.Length; i++)
 {
-    Console.WriteLine($"Digite o {i + 1}º nome: ");
-    nomes[i] = Console.ReadLine()!;
+    Console.WriteLine($"Informe o {i + 1}º nome: ");
+    nomes[i] = Console.ReadLine()!;    
 }
 
-Console.WriteLine($"Digite o nome que deseja procurar: ");
-string resposta = Console.ReadLine()!;
+Console.WriteLine($"Informe o nome a ser buscado: ");
+string nomeBuscado = Console.ReadLine()!;
 
-if(nomes.Contains(resposta) == true)
+//processamento
+foreach (string nome in nomes)
 {
-    Console.WriteLine($"Achei !");
+    if (nome == nomeBuscado)
+    {
+        nomeEncontrado = true;
+        break;
+    }
 }
-else{
-    Console.WriteLine($"Não achei !");
-    
+
+//saída - exibir
+if (nomeEncontrado == true)
+{
+    Console.WriteLine($"ACHEI");    
 }
+else
+{
+    Console.WriteLine($"NÃO ACHEI");    
+}
+
+string resultadoBusca = nomeEncontrado == true ? "ACHEI" : "Não ACHEI";
+Console.WriteLine(resultadoBusca);
+
+Console.WriteLine(nomeEncontrado ? "ACHEI" : "Não ACHEI");
+
+
+
+
+
+
+// if(nomes.Contains(resposta) == true)
+// {
+//     Console.WriteLine($"Achei !");
+// }
+// else{
+//     Console.WriteLine($"Não achei !");
+// }

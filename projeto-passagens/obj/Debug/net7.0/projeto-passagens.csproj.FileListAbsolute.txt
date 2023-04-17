@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\bin\Debug\net7.0\projeto-passagens.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\bin\Debug\net7.0\projeto-passagens.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\bin\Debug\net7.0\projeto-passagens.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\bin\Debug\net7.0\projeto-passagens.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\bin\Debug\net7.0\projeto-passagens.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\refint\projeto-passagens.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\projeto-passagens.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-passagens\obj\Debug\net7.0\ref\projeto-passagens.dll
