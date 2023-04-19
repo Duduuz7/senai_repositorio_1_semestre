@@ -15,7 +15,7 @@
 static void Login()
 {
 
-//corpo da funcao
+    //corpo da funcao
 
     bool senhaCerta = false;
 
@@ -51,7 +51,7 @@ string[] origem = new string[5];
 string[] destino = new string[5];
 string[] data = new string[5];
 
-static void Cadastro(string[] nomes, string[] origem,string[] destino, string[] data)
+static void Cadastro(string[] nomes, string[] origem, string[] destino, string[] data)
 {
 
     for (var i = 0; i < 5; i++)
@@ -67,12 +67,12 @@ static void Cadastro(string[] nomes, string[] origem,string[] destino, string[] 
 
         Console.WriteLine($"Digite a data de voo do passageiro: ");
         data[i] = Console.ReadLine()!;
-    }    
+    }
 }
 
 // funcao listar
 
-static void Listar(string[] nomes, string[] origem,string[] destino, string[] data)
+static void Listar(string[] nomes, string[] origem, string[] destino, string[] data)
 {
     for (var i = 0; i < 5; i++)
     {
@@ -90,7 +90,7 @@ static void Listar(string[] nomes, string[] origem,string[] destino, string[] da
         Data: {data[i]}
 
         ");
-        
+
     }
 }
 
@@ -108,13 +108,13 @@ Login();
 
 menuCheck:
 
-    bool menuResposta = false;
+bool menuResposta = false;
 
-    do
-    {
+do
+{
 
-        Console.Clear();
-        Console.WriteLine(@$"
+    Console.Clear();
+    Console.WriteLine(@$"
 
 ----------------------------
 | Bem vindo ao nosso menu! |
@@ -129,17 +129,17 @@ menuCheck:
 
 ");
 
-        int repostaMenu = int.Parse(Console.ReadLine()!);
+    int repostaMenu = int.Parse(Console.ReadLine()!);
 
-        if (repostaMenu == 1)
-        {
-            Console.WriteLine($"");
-            Console.WriteLine($"Bem vindo a tela de cadastro de passagens !");
-            Console.WriteLine($"");
+    if (repostaMenu == 1)
+    {
+        Console.WriteLine($"");
+        Console.WriteLine($"Bem vindo a tela de cadastro de passagens !");
+        Console.WriteLine($"");
 
-            Cadastro(nomes, origem, destino, data);
+        Cadastro(nomes, origem, destino, data);
 
-             Console.WriteLine(@$"
+        Console.WriteLine(@$"
     
     Cadastro realizado com sucesso! 
     
@@ -176,28 +176,28 @@ menuCheck:
 
         } while (respostaCadastroErro == true);
 
-        }
+    }
 
 
-        else if (repostaMenu == 2)
-        {
-            Console.WriteLine($"Você escolheu a função listar!");
-            Listar(nomes, origem, destino, data);
-        }
+    else if (repostaMenu == 2)
+    {
+        Console.WriteLine($"Você escolheu a função listar!");
+        Listar(nomes, origem, destino, data);
+    }
 
-        else if (repostaMenu == 0)
-        {
-            Console.WriteLine($"Obrigado poe acessar nosso progama, volte sempre!!!");
-        }
+    else if (repostaMenu == 0)
+    {
+        Console.WriteLine($"Obrigado poe acessar nosso progama, volte sempre!!!");
+    }
 
-        else
-        {
-            Console.WriteLine($"Opção inválida, escolha uma opção válida!");
-            repostaMenu = int.Parse(Console.ReadLine()!);
-        }
+    else
+    {
+        Console.WriteLine($"Opção inválida, escolha uma opção válida!");
+        repostaMenu = int.Parse(Console.ReadLine()!);
+    }
 
 
-    } while (menuResposta == true);
+} while (menuResposta == true);
 
 
 
@@ -224,7 +224,7 @@ menuCheck:
 //     Console.WriteLine($"Nome: {nomes[i]}");
 //     Console.WriteLine($"Origem: {origens[i]}");
 //     Console.WriteLine();
-    
+
 // }
 
 

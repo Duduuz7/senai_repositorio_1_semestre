@@ -48,14 +48,14 @@ static void Login()
 
 //Funcao Cadastro !
 
-string[] nomes = new string[2];
-float[] precos = new float[2];
-bool[] promocoes = new bool[2];
+string[] nomes = new string[10];
+float[] precos = new float[10];
+bool[] promocoes = new bool[10];
 // string respostaPromocao;
 
 static void CadastrarProduto(string[] nomes, float[] precos, bool[] promocoes)
 {
-        for (var i = 0; i < 2; i++)
+        for (var i = 0; i < 10; i++)
     {
         Console.WriteLine($"Digite o nome do produto: ");
         nomes[i] = Console.ReadLine()!;
@@ -88,7 +88,7 @@ static void CadastrarProduto(string[] nomes, float[] precos, bool[] promocoes)
 
 static void ListarProdutos(string[] nomes, float[] precos, bool[] promocoes)
 {
-        for (var i = 0; i < 2; i++)
+        for (var i = 0; i < 10; i++)
     {
         Console.WriteLine(@$"
 
