@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\bin\Debug\net7.0\projeto-sistema-produtos.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\bin\Debug\net7.0\projeto-sistema-produtos.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\bin\Debug\net7.0\projeto-sistema-produtos.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\bin\Debug\net7.0\projeto-sistema-produtos.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\bin\Debug\net7.0\projeto-sistema-produtos.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\refint\projeto-sistema-produtos.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\projeto-sistema-produtos.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-sistema-produtos\obj\Debug\net7.0\ref\projeto-sistema-produtos.dll
