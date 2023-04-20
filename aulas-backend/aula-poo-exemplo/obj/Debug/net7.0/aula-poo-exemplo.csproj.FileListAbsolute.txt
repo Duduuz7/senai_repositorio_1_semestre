@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\bin\Debug\net7.0\aula-poo-exemplo.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\bin\Debug\net7.0\aula-poo-exemplo.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\bin\Debug\net7.0\aula-poo-exemplo.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\bin\Debug\net7.0\aula-poo-exemplo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\bin\Debug\net7.0\aula-poo-exemplo.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\refint\aula-poo-exemplo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\aula-poo-exemplo.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\obj\Debug\net7.0\ref\aula-poo-exemplo.dll

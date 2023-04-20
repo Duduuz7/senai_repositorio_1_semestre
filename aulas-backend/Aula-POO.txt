@@ -1,0 +1,16 @@
+Personagem tony = new Personagem();
+usar primeira letra maiúscula
+
+"Personagem" guarda todos os atributos que voce der para essa classe Personagem
+Fazendo dentro dela com Public + Tipo da variavel + nome da variãvel
+
+Para usar na program instanciar objeto da classe
+usando: Personagem + nome + = + new Personagem()
+
+cwl(nome+.nome do atributo)
+
+usar using + nome da pasta q guarda tudo usando _ na program para usar
+
+usar método = nome do objeto + . + nome do método com ()
+
+
