@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = aula_poo_exemplo
-build_property.ProjectDir = c:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\aula-poo-exemplo\
+build_property.RootNamespace = atividade_calculadora_poo
+build_property.ProjectDir = C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\

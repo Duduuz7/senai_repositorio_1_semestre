@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\bin\Debug\net7.0\atividade_calculadora_poo.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\bin\Debug\net7.0\atividade_calculadora_poo.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\bin\Debug\net7.0\atividade_calculadora_poo.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\bin\Debug\net7.0\atividade_calculadora_poo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\bin\Debug\net7.0\atividade_calculadora_poo.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\refint\atividade_calculadora_poo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\atividade_calculadora_poo.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade_calculadora_poo\obj\Debug\net7.0\ref\atividade_calculadora_poo.dll

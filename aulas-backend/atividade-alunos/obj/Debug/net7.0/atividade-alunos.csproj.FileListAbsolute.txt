@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\bin\Debug\net7.0\atividade-alunos.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\bin\Debug\net7.0\atividade-alunos.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\bin\Debug\net7.0\atividade-alunos.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\bin\Debug\net7.0\atividade-alunos.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\bin\Debug\net7.0\atividade-alunos.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\refint\atividade-alunos.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\atividade-alunos.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\atividade-alunos\obj\Debug\net7.0\ref\atividade-alunos.dll
