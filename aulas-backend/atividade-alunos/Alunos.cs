@@ -2,36 +2,37 @@ namespace atividade_alunos
 {
     public class Alunos
     {
-        public string nome;
-        public string curso;
-        public string idade;
-        public string rg;
-        public bool bolsa;
-        public float mediaFinal;
-        public float valorMensal;
+        //Atributos-caracteristicas-propriedades !!!
+        public string Nome;
+        public string Curso;
+        public string Idade;
+        public string Rg;
+        public bool Bolsa;
+        public float MediaFinal;
+        public float ValorMensal;
 
-        // FUNCOES !!!!!
+        // COMPORTAMENTOS - MÉTODOS - FUNCOES !!!!!
 
         public void MostrarMedia()
         {
-            Console.WriteLine($"Sua média final é: {mediaFinal}");   
+            Console.WriteLine($"A média final do aluno {Nome} é: {this.MediaFinal}");   
         }
 
         public float MostrarMensalidade()
         {
-            if (bolsa == true && mediaFinal >= 8)
+            if (Bolsa == true && MediaFinal >= 8)
             {
-                return valorMensal / 2;
+                return (this.ValorMensal * 0.5f);
             }
 
-            else if (bolsa == true && mediaFinal > 6 && mediaFinal < 8)
+            else if (Bolsa == true && MediaFinal > 6)
             {
-                return valorMensal * 0.3F;
+                return (ValorMensal * 0.7f);
             }
 
             else 
             {
-                return valorMensal;
+                return (this.ValorMensal);
             }
         }
     }

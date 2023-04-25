@@ -25,13 +25,13 @@ Console.WriteLine($"Bem vindo ao nosso sistema de cadastro de alunos !!!");
 Console.WriteLine($"");
 
 Console.WriteLine($"Insira o nome do Aluno: ");
-a1.nome = Console.ReadLine()!;
+a1.Nome = Console.ReadLine()!;
 Console.WriteLine($"Insira o curso do Aluno: ");
-a1.curso = Console.ReadLine()!;
+a1.Curso = Console.ReadLine()!;
 Console.WriteLine($"Insira a idade do Aluno: ");
-a1.idade = Console.ReadLine()!;
+a1.Idade = Console.ReadLine()!;
 Console.WriteLine($"Insira o RG do Aluno: ");
-a1.rg = Console.ReadLine()!;
+a1.Rg = Console.ReadLine()!;
 
 check:
 
@@ -40,11 +40,11 @@ string bolsaS = Console.ReadLine()!.ToUpper();
 
 if (bolsaS == "S")
 {
-    a1.bolsa = true;
+    a1.Bolsa = true;
 }
 else if (bolsaS == "N")
 {
-    a1.bolsa = false;
+    a1.Bolsa = false;
 }
 else
 {
@@ -53,10 +53,10 @@ else
 }
 
 Console.WriteLine($"Insira a média final do aluno: ");
-a1.mediaFinal = float.Parse(Console.ReadLine()!);
+a1.MediaFinal = float.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Insira o valor da mensalidade: ");
-a1.valorMensal = float.Parse(Console.ReadLine()!);
+Console.WriteLine($"Insira o valor bruto da mensalidade: ");
+a1.ValorMensal = float.Parse(Console.ReadLine()!);
 
 Console.WriteLine($"O cadastro do aluno foi realizado com sucesso, pressione 'Enter' para prosseguir ao menu!");
 string prosseguir = Console.ReadLine()!;
@@ -96,7 +96,7 @@ do
 
     else if (repostaMenu == "2")
     {
-        Console.WriteLine($"O valor total da mensalidade é de  {a1.MostrarMensalidade()}");
+        Console.WriteLine($"O valor total da mensalidade é de: {a1.MostrarMensalidade()}");
         
     }
 
@@ -115,5 +115,4 @@ do
 } while (menuResposta == true);
 
 
-
-
+// If e Else da bolsa usando operador ternario, a1.Bolsa = bolsaS == "S" ? true : false;

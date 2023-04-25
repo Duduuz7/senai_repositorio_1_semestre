@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\bin\Debug\net7.0\projeto-celular.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\bin\Debug\net7.0\projeto-celular.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\bin\Debug\net7.0\projeto-celular.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\bin\Debug\net7.0\projeto-celular.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\bin\Debug\net7.0\projeto-celular.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\refint\projeto-celular.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\projeto-celular.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-celular\obj\Debug\net7.0\ref\projeto-celular.dll
