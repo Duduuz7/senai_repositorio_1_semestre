@@ -1,0 +1,15 @@
+Classe abstrata, contendo as informacoes q se repetem em outras classes
+É algo conceitual, nao é instanciado
+acompanha public abstract
+========================================
+Polimorfismo duas vertentes, sobrecarga: varios metodos com mesmo nome e finalidade, mas com cargas diferentes
+sobescrita: quando sobescreve na classe herdada e vira override trazendo com corpo
+=======================================
+Encapsulamento: Niveis de seguranca para as propriedades
+usa get e set, get faz leitura, set faz gravacao,
+colocando private antes do set ou get, deixa privado e so pode usar na tal classe
+ 
+=======================================
+Usar herança usa ':' + o nome da class que quer usar nessa classe
+
+=======================================
