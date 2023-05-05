@@ -1,0 +1,30 @@
+1. criar repositório nome e readme
+2. series, collaborators
+3. add people, colocar membros
+4. pessoas aceitar o convite no email 
+5. clonar repositório na máquina dando git clone e o link do repositório
+6. git dando cd + nome do repositorio/pasta ou entrar na pasta e dar git nela
+7. dar git branch + nome (primeira é develop), ou git checkout -b + nome { checkout ja entra na pasta} quando cria}
+8. git branch --list ou git branch apenas para ver as branchs existentes
+9. git checkout + nome da pasta/repositório para ir para aquela pasta
+10. dentro da develop criar uma pasta do projeto
+11. dentro da pasta criada abrir o vs e criar projeto cs
+12. dar git add, commit e push origin develop na pasta na branch develop
+13. dar git checkout develop
+14. dar git branch + nome
+15. dar git add, commit, e push origin + nome da pasta
+16. repetir novamente com cada integrante voltando pra develop, criando branch de cada e dando git add, commit e push
+17. cada um dar git checkout e ir para sua branch, abrir seus projetos e fazerem suas classes
+18. fazer as alterações e sempre dar git add, commit e push origin + nome da sua branch
+19. outra pessoa para usar dar git clone para usar
+20. dentro do vs na pasta e dar git checkout para sua branch
+21. dar git merge origin + /nome da branch da pessoa q quer puxar para puxar o que foi feito pelo outro
+22. após a pessoa fazer alterações no dela, dar seu git add, git commit, e git push + nome da sua branch
+23. dar git checkout develop 
+24. dar git pull 
+25. dar git merge com as branchs q foram mexidas trazendo tudo para a develop
+26. e dar git add, commit e push
+27. quando for mandar para main, dar git checkout main para ir para ela
+28. dar git merge origin/develop
+29. dar git add, commit e push 
+
