@@ -1,0 +1,35 @@
+list tem um objeto cada posicao (ATRAVES DOS INDICES, 0, 1...) com suas
+propridades (por exemplo) nome
+idade, senha.
+Com foreach acessa a lista, na lista acessa o objeto e no objeto as 
+propriedades
+
+Métodos mais comuns:
+
+add - adiciona um objeto ao final da list
+
+clear - remove todos os elentod da list
+
+contain - determina se um elemento esta na list
+
+find - pesquisa um elemento q corresponde as condiicoes definidas pelo 
+predicado especificado e retorna a primeira ocorrencia em toda a list
+
+find all - recupera todos os elementod que correspodem as condicoes
+definidas pelo predicado especificad
+
+indexof - pesquisa o objeto especificado e retorna seu indice
+
+insert - insere um elemento na list
+
+remove - remove a primeira ocorrencia de um objeto especifico da list
+
+remove all - remove todos os elementos com as condicoes definidas
+
+removeat - remove elemento no indice especificado
+
+reverse - inverte a ordem dos elementos em todo o list
+
+reverse + indice - inverte a ordem dos especificados
+
+Para criar lista = List<nome da classe que quer trabalhar> + nome = new List<nome novamente>();

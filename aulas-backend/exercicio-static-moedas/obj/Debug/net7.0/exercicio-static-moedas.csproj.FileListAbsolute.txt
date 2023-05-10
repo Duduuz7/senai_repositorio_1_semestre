@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\bin\Debug\net7.0\exercicio-static-moedas.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\bin\Debug\net7.0\exercicio-static-moedas.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\bin\Debug\net7.0\exercicio-static-moedas.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\bin\Debug\net7.0\exercicio-static-moedas.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\bin\Debug\net7.0\exercicio-static-moedas.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\refint\exercicio-static-moedas.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\exercicio-static-moedas.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-static-moedas\obj\Debug\net7.0\ref\exercicio-static-moedas.dll

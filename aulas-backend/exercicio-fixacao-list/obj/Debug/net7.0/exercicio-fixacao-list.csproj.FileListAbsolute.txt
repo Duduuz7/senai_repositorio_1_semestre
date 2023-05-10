@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\bin\Debug\net7.0\exercicio-fixacao-list.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\bin\Debug\net7.0\exercicio-fixacao-list.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\bin\Debug\net7.0\exercicio-fixacao-list.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\bin\Debug\net7.0\exercicio-fixacao-list.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\bin\Debug\net7.0\exercicio-fixacao-list.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\refint\exercicio-fixacao-list.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\exercicio-fixacao-list.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\obj\Debug\net7.0\ref\exercicio-fixacao-list.dll

@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\bin\Debug\net7.0\exercicio-fixacao-list2-carro.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\bin\Debug\net7.0\exercicio-fixacao-list2-carro.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\bin\Debug\net7.0\exercicio-fixacao-list2-carro.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\bin\Debug\net7.0\exercicio-fixacao-list2-carro.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\bin\Debug\net7.0\exercicio-fixacao-list2-carro.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\refint\exercicio-fixacao-list2-carro.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\exercicio-fixacao-list2-carro.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list2-carro\obj\Debug\net7.0\ref\exercicio-fixacao-list2-carro.dll

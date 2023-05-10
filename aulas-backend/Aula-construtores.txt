@@ -1,0 +1,10 @@
+ctor, abreviação para o método construtor
+
+
+toda vez que dar um new, instanciar, vai ser obrugado passar os parametros
+daquele metodo construtor
+
+exemplo construtor login com parametros de senha e email, mesmo que tenha
+outros, o email e a senha q estara como parametro na classe login serao
+os parametros obrigatorios
+
