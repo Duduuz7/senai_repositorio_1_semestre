@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = exercicio_fixacao_list
-build_property.ProjectDir = c:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-list\
+build_property.RootNamespace = projeto_produto_interface
+build_property.ProjectDir = C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\

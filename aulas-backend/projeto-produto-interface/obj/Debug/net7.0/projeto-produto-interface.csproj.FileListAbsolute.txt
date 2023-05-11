@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\bin\Debug\net7.0\projeto-produto-interface.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\bin\Debug\net7.0\projeto-produto-interface.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\bin\Debug\net7.0\projeto-produto-interface.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\bin\Debug\net7.0\projeto-produto-interface.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\bin\Debug\net7.0\projeto-produto-interface.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\refint\projeto-produto-interface.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\projeto-produto-interface.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\projeto-produto-interface\obj\Debug\net7.0\ref\projeto-produto-interface.dll

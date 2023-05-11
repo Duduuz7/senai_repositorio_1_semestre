@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "projeto-produto-interface/1.0.0": {
+        "runtime": {
+          "projeto-produto-interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projeto-produto-interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
