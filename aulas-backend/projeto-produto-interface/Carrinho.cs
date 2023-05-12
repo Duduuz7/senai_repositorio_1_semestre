@@ -1,6 +1,6 @@
 namespace projeto_produto_interface
 {
-    public class Carrinho : ICarrinho
+    public class Carrinho : ICarrinho //IMPLEMENTACAO, para interface a heranca se chama implementamento
     {
         //PROPRIEDADES
         public float Valor { get; set; }

@@ -7,12 +7,12 @@ namespace projeto_produto_interface
         //metodos que deverao aqui ser declarados apenas
 
         //CRUD : Create, Read, Update, Delete
-          //modelo padrao de chamada de metodo:
-           //tipo Nome(parametros)
+        //modelo padrao de chamada de metodo:
+        //tipo Nome(parametros)
 
         //Create
-         
-            void Adicionar(Produto _produto);
+
+        void Adicionar(Produto _produto);
 
 
         //Read
