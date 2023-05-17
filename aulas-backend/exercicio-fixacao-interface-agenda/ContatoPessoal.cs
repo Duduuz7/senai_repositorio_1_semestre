@@ -7,7 +7,7 @@ namespace exercicio_fixacao_interface_agenda
         {
             Cpf = _cpf;
 
-            if (Cpf.Length == 14)
+            if (Cpf.Length == 11)
             {
                 return true;
             }

@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\bin\Debug\net7.0\projeto-produtos-poo.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\bin\Debug\net7.0\projeto-produtos-poo.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\bin\Debug\net7.0\projeto-produtos-poo.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\bin\Debug\net7.0\projeto-produtos-poo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\bin\Debug\net7.0\projeto-produtos-poo.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\refint\projeto-produtos-poo.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\projeto-produtos-poo.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\projeto-produtos-poo\obj\Debug\net7.0\ref\projeto-produtos-poo.dll

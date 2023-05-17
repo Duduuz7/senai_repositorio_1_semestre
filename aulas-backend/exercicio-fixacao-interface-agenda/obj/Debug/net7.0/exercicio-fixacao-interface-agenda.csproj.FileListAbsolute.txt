@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\bin\Debug\net7.0\exercicio-fixacao-interface-agenda.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\bin\Debug\net7.0\exercicio-fixacao-interface-agenda.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\bin\Debug\net7.0\exercicio-fixacao-interface-agenda.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\bin\Debug\net7.0\exercicio-fixacao-interface-agenda.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\bin\Debug\net7.0\exercicio-fixacao-interface-agenda.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\refint\exercicio-fixacao-interface-agenda.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\exercicio-fixacao-interface-agenda.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\exercicio-fixacao-interface-agenda\obj\Debug\net7.0\ref\exercicio-fixacao-interface-agenda.dll
