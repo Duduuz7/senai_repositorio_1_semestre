@@ -15,10 +15,15 @@ namespace projeto_produtos_poo
             m1.Codigo = int.Parse(Console.ReadLine()!);
             Console.WriteLine($"Digite o nome da marca:");
             m1.NomeMarca = Console.ReadLine()!;
-            m1.DataCadastro = DateTime.Parse(Console.ReadLine()!);
+            m1.DataCadastro = DateTime.Now;
 
             Marcas.Add(m1);
-            Console.WriteLine($"Produto cadastrado com sucesso");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Marca cadastrada com sucesso");
+            Console.ResetColor();
+
+            Console.WriteLine($"");
+
             return m1;
         }
         public void Listar()
@@ -27,18 +32,22 @@ namespace projeto_produtos_poo
             {
                 foreach (var item in Marcas)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
                     Console.WriteLine(@$"
-                ---------------------------------------
-                | Código da marca: {Codigo}           |
-                | Nome da marca: {NomeMarca}          | 
-                | Data do cadastro: {DataCadastro}    |
-                ---------------------------------------
+                ----------------------------------------
+                 Código da marca: {item.Codigo}           
+                 Nome da marca: {item.NomeMarca}          
+                 Data do cadastro: {item.DataCadastro}    
+                ----------------------------------------
                 ");
+                    Console.ResetColor();
                 }
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"A lista de marcas está vazia !!!");
+                Console.ResetColor();
             }
 
         }
@@ -46,10 +55,13 @@ namespace projeto_produtos_poo
         {
             Marca md = Marcas.Find(x => x.Codigo == removerMarcaCod)!;
             Marcas.Remove(md);
+            Console.WriteLine($"");
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"A marca cujo o código é {removerMarcaCod} foi removida !!!");
+            Console.ResetColor();
         }
 
 
     }
 }
-
-//.Find(x => x.Codigo == codigo); guardar dentro de objeto do tipo doq busquei

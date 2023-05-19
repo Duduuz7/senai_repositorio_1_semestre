@@ -5,60 +5,63 @@ namespace projeto_produtos_poo
         public int Codigo { get; private set; }
         public string NomeProduto { get; private set; }
         public float Preco { get; private set; }
-        public DateTime DataCadastro { get; private set; }
+        public DateTime DataCadastro = DateTime.Now;
         public Marca Marca = new Marca();
-        public Usuario CadastradoPor { get; set; }
+        public Usuario CadastradoPor = new Usuario();
         List<Produto> Produtos = new List<Produto>();
 
-        public void Cadastrar()
+        public void Cadastrar(Usuario user)
         {
             Produto p1 = new Produto();
             Marca m = new Marca();
-            Usuario u = new Usuario();
+            p1.CadastradoPor = user;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine($"Digite o código do produto:");
             p1.Codigo = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine($"Digite o nome do produto:");
             p1.NomeProduto = Console.ReadLine()!;
-            
+
             Console.WriteLine($"Digite o preço do produto:");
             p1.Preco = float.Parse(Console.ReadLine()!);
 
-            DataCadastro = DateTime.Now;
+            Console.ResetColor();
+
+            p1.DataCadastro = DateTime.Now;
 
             p1.Marca = m.Cadastrar();
 
-            Console.WriteLine($"Produto cadastrado com sucesso por {u.Nome}");
-            
             Produtos.Add(p1);
-            Console.WriteLine($"Produto cadastrado com sucesso");
-
         }
         public void Listar()
         {
-            Usuario u = new Usuario();
             if (Produtos.Count > 0)
             {
                 foreach (var item in Produtos)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
                     Console.WriteLine(@$"
 
                     ---------------------------------------------
-                    | Código do produto: {this.Codigo}          |
-                    | Nome do produto: {this.NomeProduto}       |
-                    | Preço do produto: {this.Preco}            |
-                    | Data do cadastro: {this.DataCadastro}     |
-                    | Produto cadastrado por {u.Nome}           |
+                     Código do produto: {item.Codigo}          
+                     Nome do produto: {item.NomeProduto}       
+                     Preço do produto: {item.Preco:C2}       
+                     Marca: {item.Marca.NomeMarca}     
+                     Data do cadastro: {item.DataCadastro}     
+                     Produto cadastrado por {item.CadastradoPor.Nome}           
                     ---------------------------------------------
                 
                 ");
+                    Console.ResetColor();
                 }
             }
 
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Não há produtos na lista !!!");
+                Console.ResetColor();
             }
 
         }
@@ -66,6 +69,10 @@ namespace projeto_produtos_poo
         {
             Produto pd = Produtos.Find(x => x.Codigo == removerProdutoCod)!;
             Produtos.Remove(pd);
+            Console.WriteLine($"");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"O produto cujo o código é {removerProdutoCod} foi removido !!!");
+            Console.ResetColor();
         }
 
     }
