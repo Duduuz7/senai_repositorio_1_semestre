@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\bin\Debug\net7.0\console-mvc.exe
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\bin\Debug\net7.0\console-mvc.deps.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\bin\Debug\net7.0\console-mvc.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\bin\Debug\net7.0\console-mvc.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\bin\Debug\net7.0\console-mvc.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.csproj.AssemblyReference.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\refint\console-mvc.dll
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.pdb
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\console-mvc.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai_repositorio_1_semestre\aulas-backend\console-mvc\obj\Debug\net7.0\ref\console-mvc.dll
