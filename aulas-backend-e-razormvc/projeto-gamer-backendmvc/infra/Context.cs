@@ -19,7 +19,9 @@ namespace projeto_gamer_backendmvc.infra
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("DataSource = NOTE01-S15; initial catalog = gamer; Integrated Security = true; TrustServerCertificate = true;");
+                //string de conexao, conecta o projeto com o banco de dados
+
+                optionsBuilder.UseSqlServer("Data Source = NOTE01-S15; initial catalog = gamer; User Id=sa; pwd=Senai@134; TrustServerCertificate = true;");
             }
         }
 
