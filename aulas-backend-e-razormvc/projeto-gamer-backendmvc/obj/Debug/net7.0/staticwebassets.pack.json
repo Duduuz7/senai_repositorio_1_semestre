@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\img\\Equipes\\download55555.png"
     },
     {
+      "Id": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\aulas-backend-e-razormvc\\projeto-gamer-backendmvc\\wwwroot\\img\\Equipes\\padrao.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
+    },
+    {
       "Id": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\aulas-backend-e-razormvc\\projeto-gamer-backendmvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

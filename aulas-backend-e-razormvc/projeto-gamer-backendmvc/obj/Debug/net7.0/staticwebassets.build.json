@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BaXXivbJ5xyKSgdvK/3lYzvB1Z+sTBMUxHs253vn5WY=",
+  "Hash": "4GXiOt4Q2ewujOfhnAUctgJF/xibUksj4Y/FsnzATnI=",
   "Source": "projeto-gamer-backendmvc",
   "BasePath": "_content/projeto-gamer-backendmvc",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\download55555.png"
+    },
+    {
+      "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\aulas-backend-e-razormvc\\projeto-gamer-backendmvc\\wwwroot\\img\\Equipes\\padrao.png",
+      "SourceId": "projeto-gamer-backendmvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\aulas-backend-e-razormvc\\projeto-gamer-backendmvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-backendmvc",
+      "RelativePath": "img/Equipes/padrao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
     },
     {
       "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\aulas-backend-e-razormvc\\projeto-gamer-backendmvc\\wwwroot\\js\\site.js",

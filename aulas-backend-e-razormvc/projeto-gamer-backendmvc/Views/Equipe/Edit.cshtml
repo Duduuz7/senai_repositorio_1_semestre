@@ -8,13 +8,13 @@
 
 <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-    <input type="hidden" name="IdEquipe" value="@ViewBag.e.IdEquipe">
+    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
 
     <label for="">Nome</label>
-    <input type="text" name="Nome" value="@ViewBag.e.Nome">
+    <input type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
 
     <label for="">Imagem</label>
-    <input type="file" name="Imagem" value="@ViewBag.e.Imagem">
+    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
 
     <button type="submit">Atualizar</button>
 

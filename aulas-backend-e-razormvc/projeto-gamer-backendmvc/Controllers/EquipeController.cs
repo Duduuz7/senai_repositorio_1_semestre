@@ -165,3 +165,4 @@ namespace projeto_gamer_backendmvc.Controllers
         }
     }
 }
+
