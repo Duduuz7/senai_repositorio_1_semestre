@@ -46,9 +46,8 @@ namespace projeto_gamer_backendmvc.Controllers
 
             novoJogador.Nome = form["Nome"].ToString();
             novoJogador.Email = form["Email"].ToString();
-            novoJogador.Senha = form["Senha"].ToString();
-
-            novoJogador.Equipe = e;
+            novoJogador.Senha = form["Senha"].ToString();       
+            novoJogador.Equipe = form["Equipe"];
 
             c.Jogador.Add(novoJogador);
 

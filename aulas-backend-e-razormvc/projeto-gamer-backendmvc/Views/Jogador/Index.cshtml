@@ -20,13 +20,13 @@
         <input type="text" name="Senha" required>
 
         <label for="">Equipe</label>
-        <select name="Equipe" id="">
+        <select name="Equipe" id="" required>
 
             <option value="0">Selecione uma opção</option>
 
             @foreach (var item in ViewBag.Equipe)
             {
-                <option value="">@item.Nome</option>
+                <option value="Equipe.IdEquipe">@item.Nome</option>
             }
 
         </select>
