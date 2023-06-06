@@ -8,35 +8,30 @@
 
 <form method='post' action="@Url.Action("Cadastrar")">
 
-    <Label>
+    <label for="">Nome</label>
+    <input type="text" name="Nome" required>
 
-        <label for="">Nome</label>
-        <input type="text" name="Nome" required>
+    <label for="">E-mail</label>
+    <input type="text" name="Email" required>
 
-        <label for="">E-mail</label>
-        <input type="text" name="Email" required>
+    <label for="">Senha</label>
+    <input type="password" name="Senha" required>
 
-        <label for="">Senha</label>
-        <input type="text" name="Senha" required>
+    <label for="">Equipe</label>
+    <select name="IdEquipe" id="" required>
 
-        <label for="">Equipe</label>
-        <select name="Equipe" id="" required>
+        <option value="0">Selecione uma opção</option>
 
-            <option value="0">Selecione uma opção</option>
+        @foreach (Equipe equipe in ViewBag.Equipe)
+        {
+            <option value="@equipe.IdEquipe">@equipe.Nome</option>
+        }
 
-            @foreach (var item in ViewBag.Equipe)
-            {
-                <option value="Equipe.IdEquipe">@item.Nome</option>
-            }
+    </select>
 
-        </select>
-
-        <button type="submit">Cadastrar</button>
-
-    </Label>
+    <button type="submit">Cadastrar</button>
 
 </form>
-
 
 
 
@@ -62,6 +57,13 @@
                 <td>
                     <img src="/img/Equipes/@j.Equipe.Imagem" alt="Imagem da equipe do jogador @j.Nome" width="50px">
                 </td>
+                <td>
+                    <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@j.IdJogador">Excluir</a>
+                </td>
+                <td>
+                    <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@j.IdJogador">Editar</a>
+                </td>
+
             </tr>
         }
 

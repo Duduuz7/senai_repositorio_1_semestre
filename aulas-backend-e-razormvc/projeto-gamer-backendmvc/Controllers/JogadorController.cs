@@ -42,12 +42,12 @@ namespace projeto_gamer_backendmvc.Controllers
         {
 
             Jogador novoJogador = new Jogador();
-            Equipe e = new Equipe();
 
             novoJogador.Nome = form["Nome"].ToString();
             novoJogador.Email = form["Email"].ToString();
-            novoJogador.Senha = form["Senha"].ToString();       
-            novoJogador.Equipe = form["Equipe"];
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["Equipe"]);
+            novoJogador.Equipe = c.Equipe.First(e => e.IdEquipe == int.Parse(form["Equipe"]));
 
             c.Jogador.Add(novoJogador);
 
@@ -57,13 +57,54 @@ namespace projeto_gamer_backendmvc.Controllers
 
         }
 
+        [Route("Excluir/{id}")]
+        public IActionResult Excluir(int id)
+        {
+            Jogador j = c.Jogador.First(x => x.IdJogador == id);
 
+            c.Jogador.Remove(j);
 
+            c.SaveChanges();
 
+            return LocalRedirect("~/Jogador/listar");
 
+        }
 
+        [Route("Editar/{id}")]
+        public IActionResult Editar(int id)
+        {
+            Jogador j = c.Jogador.First(x => x.IdJogador == id);
 
+            ViewBag.Jogador = j;
+            ViewBag.Equipe = c.Equipe.ToList();
 
+            return View("EditJogador");
+        }
+
+        [Route("AtualizarJogador")]
+        public IActionResult Atualizar(IFormCollection form, Jogador j)
+        {
+
+            Jogador novoJogador = new Jogador();
+
+            novoJogador.IdJogador = int.Parse(form["IdJogador"].ToString());
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            Jogador jogador = c.Jogador.First(x => x.IdJogador == novoJogador.IdJogador);
+
+            jogador.Nome = novoJogador.Nome;
+            jogador.Senha = novoJogador.Senha;
+            jogador.Email = novoJogador.Email;
+            jogador.IdEquipe = novoJogador.IdEquipe;
+
+            c.Jogador.Update(jogador);
+            c.SaveChanges();
+
+            return LocalRedirect("~/Jogador/Listar");
+        }
 
     }
 
