@@ -1,0 +1,58 @@
+@model Equipe
+
+@{
+    ViewData["Title"] = "Equipe";
+}
+
+<h1>Tela de Equipes</h1>
+
+@if (ViewBag.UserName == null)
+{
+    <a class="navbar-brand" asp-area="=" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
+    <form method='post' action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
+
+        <label for="">Nome</label>
+        <input type="text" name="Nome" required>
+
+        <label for="">Imagem</label>
+        <input type="file" name="Imagem">
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+    <table class="table table-stripped table responsive">
+        <thead>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Imagem</th>
+            <th>Ações</th>
+        </thead>
+
+        <tbody>
+
+            @foreach (Equipe e in ViewBag.Equipe)
+            {
+                <tr>
+                    <td>@e.IdEquipe</td>
+                    <td>@e.Nome</td>
+                    <td>
+                        <img src="/img/Equipes/@e.Imagem" alt="Imagem da equipe @e.Nome" width="50px">
+                    </td>
+                    <td>
+                        <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@e.IdEquipe">Excluir</a>
+                    </td>
+                    <td>
+                        <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@e.IdEquipe">Editar</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+}
+
