@@ -4,6 +4,81 @@
     ViewData["Title"] = "Jogador";
 }
 
+<link rel="stylesheet" href="~/css/jogadores.css">
+
+<!-- MAIN -->
+<main>
+
+    <section class="container-grid cadastro-equipes">
+
+
+        <form action="" class="frm-cad-equipe">
+            <div class="cadequipe-titulo">
+                <h1>Cadastro de Jogadores</h1>
+                <hr>
+            </div>
+
+            <input class="campo-entrada" type="number" id="id-equipe" placeholder="Digite o Id da sua equipe:">
+            <input class="campo-entrada" type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:">
+
+            <select class="campo-entrada" id="equipe-select">
+                <option value="">Selecione uma Equipe</option>
+                <option value="x">Equipe X</option>
+                <option value="y">Equipe Y</option>
+            </select>
+
+            <input class="campo-entrada" type="text" name="Nome" required id="nome-jogador" placeholder="Digite o nome do Jogador:">
+            <input class="campo-entrada" type="email" name="Email" required id="email-jogador" placeholder="Digite o Email do Jogador:">
+            <input class="campo-entrada" type="password" name="Senha" required id="senha" placeholder="Digite a Senha:">
+            <button>Cadastrar</button>
+
+
+
+
+        </form>
+
+        <!-- TABELA CADASTRO DE EQUIPES -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>&spades;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Eduardo</td\>
+                    <td>eduardo@gmail.com</td>
+                    <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Eduardo</td>
+                    <td>eduardo@gmail.com</td>
+                    <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Eduardo</td>
+                    <td>eduardo@gmail.com</td>
+                    <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+
+
+
+
+
+
+
 <h1>Tela de Jogadores</h1>
 
 @if (ViewBag.UserName == null)
