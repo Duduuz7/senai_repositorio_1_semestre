@@ -329,6 +329,10 @@
       "PackagePath": "staticwebassets\\images\\backgrund_notícias.png"
     },
     {
+      "Id": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\images\\banner_cadastro_de_equipe.png",
+      "PackagePath": "staticwebassets\\images\\banner_cadastro_de_equipe.png"
+    },
+    {
       "Id": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\images\\kiljoy.png",
       "PackagePath": "staticwebassets\\images\\kiljoy.png"
     },
@@ -379,6 +383,10 @@
     {
       "Id": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\img\\Equipes\\padrao.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Id": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\img\\Equipes\\padrao.png.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png.png"
     },
     {
       "Id": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\js\\site.js",

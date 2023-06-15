@@ -11,75 +11,117 @@
 
     <section class="container-grid cadastro-equipes">
 
+        @if (ViewBag.UserName == null)
+        {
+            <a class="navbar-brand" asp-area="=" asp-controller="Login" asp-action="Index">Login</a>
+        }
+        else
+        {
 
-        <form action="" class="frm-cad-equipe">
-            <div class="cadequipe-titulo">
-                <h1>Cadastro de Jogadores</h1>
-                <hr>
-            </div>
+            <form action="" class="frm-cad-equipe">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Jogadores</h1>
+                    <hr>
+                </div>
 
-            <input class="campo-entrada" type="number" id="id-equipe" placeholder="Digite o Id da sua equipe:">
-            <input class="campo-entrada" type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:">
+                @* <input class="campo-entrada" type="number" id="id-equipe" placeholder="Digite o Id da sua equipe:">
+            <input class="campo-entrada" type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:"> *@
 
-            <select class="campo-entrada" id="equipe-select">
-                <option value="">Selecione uma Equipe</option>
-                <option value="x">Equipe X</option>
-                <option value="y">Equipe Y</option>
-            </select>
+                <select class="campo-entrada" id="equipe-select">
+                    <option value="0">Selecione uma equipe</option>
 
-            <input class="campo-entrada" type="text" name="Nome" required id="nome-jogador" placeholder="Digite o nome do Jogador:">
-            <input class="campo-entrada" type="email" name="Email" required id="email-jogador" placeholder="Digite o Email do Jogador:">
-            <input class="campo-entrada" type="password" name="Senha" required id="senha" placeholder="Digite a Senha:">
-            <button>Cadastrar</button>
+                    @foreach (Equipe equipe in ViewBag.Equipe)
+                    {
+                        <option value="@equipe.IdEquipe">@equipe.Nome</option>
+                    }
+
+                </select>
+
+                <input class="campo-entrada" type="text" name="Nome" required id="nome-jogador"
+                    placeholder="Digite o nome do Jogador:">
+                <input class="campo-entrada" type="email" name="Email" required id="email-jogador"
+                    placeholder="Digite o Email do Jogador:">
+                <input class="campo-entrada" type="password" name="Senha" required id="senha" placeholder="Digite a Senha:">
+                <button>Cadastrar</button>
 
 
 
 
-        </form>
+            </form>
 
-        <!-- TABELA CADASTRO DE EQUIPES -->
+            <!-- TABELA CADASTRO DE EQUIPES -->
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Id</th>
+            <table class="table table-stripped table responsive">
+
+                <thead>
+
+                    <th>ID</th>
                     <th>Nome</th>
-                    <th>Email</th>
+                    <th>E-Mail</th>
+                    <th>Equipe</th>
                     <th>&spades;</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Eduardo</td\>
-                    <td>eduardo@gmail.com</td>
-                    <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Eduardo</td>
-                    <td>eduardo@gmail.com</td>
-                    <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Eduardo</td>
-                    <td>eduardo@gmail.com</td>
-                    <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
-                </tr>
-            </tbody>
-        </table>
+
+
+                </thead>
+
+                <tbody>
+
+                    @foreach (Jogador j in ViewBag.Jogador)
+                    {
+                        <tr>
+                            <td>@j.IdJogador</td>
+                            <td>@j.Nome</td>
+                            <td>@j.Email</td>
+                            <td>
+                                <img src="/img/Equipes/@j.Equipe.Imagem" alt="Imagem da equipe do jogador @j.Nome" width="50px">
+                            </td>
+                            <td>
+                                <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@j.IdJogador">
+                                    <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                                </a>
+                                <a asp-area="" asp-controller="Jogador" asp-action="Editar"
+                                    asp-route-id="@j.IdJogador">Editar</a>
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+
+
+
+
+
+            @* <table>
+        <thead>
+        <tr>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>&spades;</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td>Eduardo</td\>
+        <td>eduardo@gmail.com</td>
+        <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
+        </tr>
+
+        </tbody>
+        </table> *@
+        }
     </section>
 </main>
 
 
 
 
-
-
-
-
-<h1>Tela de Jogadores</h1>
+@* <h1>Tela de Jogadores</h1>
 
 @if (ViewBag.UserName == null)
 {
@@ -151,4 +193,4 @@ else
         </tbody>
 
     </table>
-}
+} *@

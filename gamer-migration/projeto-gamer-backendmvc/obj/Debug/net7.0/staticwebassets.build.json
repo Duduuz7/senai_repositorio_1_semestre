@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9VocDRlTHvGmZkGKKQ4zVfiGfw5dhnmkK/nPgUBNjdc=",
+  "Hash": "rRgZHBB/6sQgwIAKiVtQR3jRc/soITxm/gyav+DKbUA=",
   "Source": "projeto-gamer-backendmvc",
   "BasePath": "_content/projeto-gamer-backendmvc",
   "Mode": "Default",
@@ -1343,6 +1343,23 @@
       "OriginalItemSpec": "wwwroot\\images\\backgrund_notícias.png"
     },
     {
+      "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\images\\banner_cadastro_de_equipe.png",
+      "SourceId": "projeto-gamer-backendmvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-backendmvc",
+      "RelativePath": "images/banner_cadastro_de_equipe.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner_cadastro_de_equipe.png"
+    },
+    {
       "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\images\\Banner_Liga-Game-Mobile.png",
       "SourceId": "projeto-gamer-backendmvc",
       "SourceType": "Discovered",
@@ -1647,6 +1664,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\img\\Equipes\\padrao.png.png",
+      "SourceId": "projeto-gamer-backendmvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-backendmvc",
+      "RelativePath": "img/Equipes/padrao.png.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png.png"
     },
     {
       "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\js\\site.js",
