@@ -23,7 +23,6 @@
                     <hr>
                 </div>
 
-                @* <input class="campo-entrada" type="number" id="idEquipe" placeholder="Digite o Id da sua equipe:"> *@
                 <input class="campo-entrada" type="text" name="Nome" required placeholder="Digite o nome da sua equipe:">
                 <label class="foto" for="foto-file">
                     Nenuma imagem selecionada...
@@ -68,7 +67,9 @@
                                     <img class="yellow-trash" src="~/assets/trash.png" alt="">
                                 </a>
 
-                                <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@e.IdEquipe">Editar</a>
+                                <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@e.IdEquipe">
+                                    <img src="~/assets/Vectorlapis.svg.svg" alt="">
+                                </a>
                             </td>
 
                         </tr>

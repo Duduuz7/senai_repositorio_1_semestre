@@ -11,7 +11,7 @@
     margin-top: 60px;
     padding: 20px;
     height: 606px;
-    background-image: url(../images/Banner_Liga-Game-Mobile.png);
+    background-image: url(../images/Banner_Liga-Game.png);
     background-size: cover;
     background-repeat: none;
 }
@@ -227,7 +227,7 @@ section.noticias .card-noticia p {
         background-image: url(../images/Banner_Liga-Game.png);
 
         background-size: auto 100%;
-        background-repeat: no-repeat;
+        /* background-repeat: ; */
         background-position: center;
         background-color: transparent;
     }

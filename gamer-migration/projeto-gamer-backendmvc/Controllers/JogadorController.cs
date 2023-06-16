@@ -48,8 +48,8 @@ namespace projeto_gamer_backendmvc.Controllers
             novoJogador.Nome = form["Nome"].ToString();
             novoJogador.Email = form["Email"].ToString();
             novoJogador.Senha = form["Senha"].ToString();
-            novoJogador.IdEquipe = int.Parse(form["IdEquipe"]);
-            novoJogador.Equipe = c.Equipe.First(e => e.IdEquipe == int.Parse(form["IdEquipe"]));
+            novoJogador.IdEquipe = int.Parse(form["Equipe"]);
+            novoJogador.Equipe = c.Equipe.First(e => e.IdEquipe == int.Parse(form["Equipe"]));
 
             c.Jogador.Add(novoJogador);
 
@@ -82,10 +82,10 @@ namespace projeto_gamer_backendmvc.Controllers
             ViewBag.Jogador = j;
             ViewBag.Equipe = c.Equipe.ToList();
 
-            return View("EditJogador");
+            return View("Edit");
         }
 
-        [Route("AtualizarJogador")]
+        [Route("Atualizar")]
         public IActionResult Atualizar(IFormCollection form, Jogador j)
         {
 

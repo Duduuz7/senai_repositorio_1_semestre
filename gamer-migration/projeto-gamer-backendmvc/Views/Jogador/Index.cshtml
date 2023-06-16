@@ -18,16 +18,13 @@
         else
         {
 
-            <form action="" class="frm-cad-equipe">
+            <form method='post' action="@Url.Action("Cadastrar")" class="frm-cad-equipe">
                 <div class="cadequipe-titulo">
                     <h1>Cadastro de Jogadores</h1>
                     <hr>
                 </div>
 
-                @* <input class="campo-entrada" type="number" id="id-equipe" placeholder="Digite o Id da sua equipe:">
-            <input class="campo-entrada" type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:"> *@
-
-                <select class="campo-entrada" id="equipe-select">
+                <select class="campo-entrada" id="equipe-select" name="Equipe">
                     <option value="0">Selecione uma equipe</option>
 
                     @foreach (Equipe equipe in ViewBag.Equipe)
@@ -37,11 +34,11 @@
 
                 </select>
 
-                <input class="campo-entrada" type="text" name="Nome" required id="nome-jogador"
+                <input class="campo-entrada" type="text" id="nome-jogador" name="Nome" required
                     placeholder="Digite o nome do Jogador:">
-                <input class="campo-entrada" type="email" name="Email" required id="email-jogador"
+                <input class="campo-entrada" type="email" id="email-jogador" name="Email" required
                     placeholder="Digite o Email do Jogador:">
-                <input class="campo-entrada" type="password" name="Senha" required id="senha" placeholder="Digite a Senha:">
+                <input class="campo-entrada" type="password" id="senha" name="Senha" required placeholder="Digite a Senha:">
                 <button>Cadastrar</button>
 
 
@@ -49,9 +46,9 @@
 
             </form>
 
-            <!-- TABELA CADASTRO DE EQUIPES -->
+            @* <!-- TABELA CADASTRO DE EQUIPES --> *@
 
-            <table class="table table-stripped table responsive">
+            <table class="table-stripped table responsive">
 
                 <thead>
 
@@ -59,7 +56,7 @@
                     <th>Nome</th>
                     <th>E-Mail</th>
                     <th>Equipe</th>
-                    <th>&spades;</th>
+                    <th>Ações</th>
 
 
                 </thead>
@@ -73,14 +70,16 @@
                             <td>@j.Nome</td>
                             <td>@j.Email</td>
                             <td>
-                                <img src="/img/Equipes/@j.Equipe.Imagem" alt="Imagem da equipe do jogador @j.Nome" width="50px">
+                                <img src="~/img/Equipes/@j.Equipe.Imagem" alt="Imagem da equipe do jogador @j.Nome"
+                                    width="50px">
                             </td>
                             <td>
                                 <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@j.IdJogador">
                                     <img class="yellow-trash" src="~/assets/trash.png" alt="">
                                 </a>
-                                <a asp-area="" asp-controller="Jogador" asp-action="Editar"
-                                    asp-route-id="@j.IdJogador">Editar</a>
+                                <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@j.IdJogador">
+                                    <img src="~/assets/Vectorlapis.svg.svg">
+                                </a>
                             </td>
 
                         </tr>
@@ -90,30 +89,6 @@
 
             </table>
 
-
-
-
-
-
-            @* <table>
-        <thead>
-        <tr>
-        <th>Id</th>
-        <th>Nome</th>
-        <th>Email</th>
-        <th>&spades;</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-        <td>1</td>
-        <td>Eduardo</td\>
-        <td>eduardo@gmail.com</td>
-        <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
-        </tr>
-
-        </tbody>
-        </table> *@
         }
     </section>
 </main>
@@ -125,72 +100,72 @@
 
 @if (ViewBag.UserName == null)
 {
-    <a class="navbar-brand" asp-area="=" asp-controller="Login" asp-action="Index">Login</a>
+<a class="navbar-brand" asp-area="=" asp-controller="Login" asp-action="Index">Login</a>
 }
 else
 {
-    <form method='post' action="@Url.Action("Cadastrar")">
+<form method='post' action="@Url.Action("Cadastrar")">
 
-        <label for="">Nome</label>
-        <input type="text" name="Nome" required>
+<label for="">Nome</label>
+<input type="text" name="Nome" required>
 
-        <label for="">E-mail</label>
-        <input type="text" name="Email" required>
+<label for="">E-mail</label>
+<input type="text" name="Email" required>
 
-        <label for="">Senha</label>
-        <input type="password" name="Senha" required>
+<label for="">Senha</label>
+<input type="password" name="Senha" required>
 
-        <label for="">Equipe</label>
-        <select name="IdEquipe" id="" required>
+<label for="">Equipe</label>
+<select name="IdEquipe" id="" required>
 
-            <option value="0">Selecione uma opção</option>
+<option value="0">Selecione uma opção</option>
 
-            @foreach (Equipe equipe in ViewBag.Equipe)
-            {
-                <option value="@equipe.IdEquipe">@equipe.Nome</option>
-            }
+@foreach (Equipe equipe in ViewBag.Equipe)
+{
+<option value="@equipe.IdEquipe">@equipe.Nome</option>
+}
 
-        </select>
+</select>
 
-        <button type="submit">Cadastrar</button>
+<button type="submit">Cadastrar</button>
 
-    </form>
+</form>
 
 
 
-    <table class="table table-stripped table responsive">
+<table class="table table-stripped table responsive">
 
-        <thead>
+<thead>
 
-            <th>ID</th>
-            <th>Nome</th>
-            <th>E-Mail</th>
-            <th>Equipe</th>
+<th>ID</th>
+<th>Nome</th>
+<th>E-Mail</th>
+<th>Equipe</th>
 
-        </thead>
+</thead>
 
-        <tbody>
+<tbody>
 
-            @foreach (Jogador j in ViewBag.Jogador)
-            {
-                <tr>
-                    <td>@j.IdJogador</td>
-                    <td>@j.Nome</td>
-                    <td>@j.Email</td>
-                    <td>
-                        <img src="/img/Equipes/@j.Equipe.Imagem" alt="Imagem da equipe do jogador @j.Nome" width="50px">
-                    </td>
-                    <td>
-                        <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@j.IdJogador">Excluir</a>
-                    </td>
-                    <td>
-                        <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@j.IdJogador">Editar</a>
-                    </td>
+@foreach (Jogador j in ViewBag.Jogador)
+{
+<tr>
+<td>@j.IdJogador</td>
+<td>@j.Nome</td>
+<td>@j.Email</td>
+<td>
+<img src="/img/Equipes/@j.Equipe.Imagem" alt="Imagem da equipe do jogador @j.Nome" width="50px">
+</td>
+<td>
+<a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@j.IdJogador">Excluir</a>
+</td>
+<td>
+<a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@j.IdJogador">Editar</a>
+</td>
 
-                </tr>
-            }
+</tr>
+}
 
-        </tbody>
+</tbody>
 
-    </table>
+</table>
 } *@

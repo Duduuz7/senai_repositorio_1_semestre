@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rRgZHBB/6sQgwIAKiVtQR3jRc/soITxm/gyav+DKbUA=",
+  "Hash": "sMtKK5+bCSZDdLeh8CVfulU6WTuutuNcivmU/P9zxkk=",
   "Source": "projeto-gamer-backendmvc",
   "BasePath": "_content/projeto-gamer-backendmvc",
   "Mode": "Default",
@@ -1052,6 +1052,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\vector-user.svg"
+    },
+    {
+      "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\assets\\Vectorlapis.svg.svg",
+      "SourceId": "projeto-gamer-backendmvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-backendmvc",
+      "RelativePath": "assets/Vectorlapis.svg.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Vectorlapis.svg.svg"
+    },
+    {
+      "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\assets\\Vectorlapissssss.svg",
+      "SourceId": "projeto-gamer-backendmvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-backendmvc",
+      "RelativePath": "assets/Vectorlapissssss.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Vectorlapissssss.svg"
     },
     {
       "Identity": "C:\\Users\\48114302801\\Desktop\\senai_repositorio_1_semestre\\gamer-migration\\projeto-gamer-backendmvc\\wwwroot\\css\\equipes.css",
