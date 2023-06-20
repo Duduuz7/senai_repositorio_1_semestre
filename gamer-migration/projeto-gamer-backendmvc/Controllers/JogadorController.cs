@@ -85,8 +85,8 @@ namespace projeto_gamer_backendmvc.Controllers
             return View("Edit");
         }
 
-        [Route("Atualizar")]
-        public IActionResult Atualizar(IFormCollection form, Jogador j)
+        [Route("AtualizarJogador")]
+        public IActionResult Atualizar(IFormCollection form)
         {
 
             Jogador novoJogador = new Jogador();
@@ -97,7 +97,7 @@ namespace projeto_gamer_backendmvc.Controllers
             novoJogador.Senha = form["Senha"].ToString();
             novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
-            Jogador jogador = c.Jogador.First(x => x.IdJogador == novoJogador.IdJogador);
+            Jogador jogador = c.Jogador.First(j => j.IdJogador == novoJogador.IdJogador);
 
             jogador.Nome = novoJogador.Nome;
             jogador.Senha = novoJogador.Senha;

@@ -6,9 +6,9 @@
 
 <link rel="stylesheet" href="~/css/jogadores.css">
 
-    <main>
+<main>
 
-        <section class="container-grid cadastro-equipes">
+    <section class="container-grid cadastro-equipes">
 
         @if (ViewBag.UserName == null)
         {
@@ -24,7 +24,7 @@
                     <hr>
                 </div>
 
-                <select class="campo-entrada" id="equipe-select" name="Equipe">
+                <select class="campo-entrada" id="equipe-select" name="IdEquipe" required>
                     <option value="0">Selecione uma equipe</option>
 
                     @foreach (Equipe equipe in ViewBag.Equipe)
@@ -35,10 +35,13 @@
                 </select>
 
                 <input type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
-                <input class="campo-entrada" value="@ViewBag.Jogador.Nome" type="text" id="nome-jogador" name="Nome" required
-                    placeholder="Digite o nome do Jogador:">
-                <input class="campo-entrada" type="email" value="@ViewBag.Jogador.Email" id="email-jogador" name="Email" required
-                    placeholder="Digite o Email do Jogador:">
+
+                <input class="campo-entrada" value="@ViewBag.Jogador.Nome" type="text" id="nome-jogador" name="Nome"
+                    required placeholder="Digite o nome do Jogador:">
+
+                <input class="campo-entrada" type="email" value="@ViewBag.Jogador.Email" id="email-jogador" name="Email"
+                    required placeholder="Digite o Email do Jogador:">
+
                 <input class="campo-entrada" type="password" id="senha" name="Senha" required placeholder="Digite a Senha:">
 
                 <button type="submit">Atualizar</button>
