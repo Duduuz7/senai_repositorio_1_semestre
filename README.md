@@ -1,1 +1,1 @@
-# aula-estiloux
+# Repositório das aulas e projetos do primeiro semestre do curso de Desenvolvimento de Sistemas - Senai
