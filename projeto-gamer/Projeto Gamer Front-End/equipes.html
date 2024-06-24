@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/equipes.css">
+    <title>Cadastro de equipes</title>
+</head>
+<body>
+    <header>
+        <div class="header-top header-flex">
+            <div class="grid-layout header-flex">
+                <div class="contacts">
+                    <div class="phone">
+                        <img src="assets/icons/telephone.svg" alt="Ícone de telefone sobre contato">
+                        <p>(11) 0900-1010</p>
+                    </div>
+                    <div class="email">
+                        <img src="assets/icons/email.svg" alt="Ícone de email sobre contato">
+                        <p>contato@gamer.com.br</p>
+                    </div>
+                </div>
+                <div class="redes-sociais">
+                    <a href=""><img src="assets/icons/facebook.svg" alt="Ícone link do Facebook da empresa"></a>
+                    <a href=""><img src="assets/icons/linkedin.svg" alt="Ícone link do LinkedIn da empresa"></a>
+                    <a href=""><img src="assets/icons/instagram.svg" alt="Ícone link do Instagram da empresa"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="grid-layout header-flex">
+                <!-- Visível apenas no mobile (exceto logo) -->
+                <img onclick="mostrarMenu()" class="menu-hamburger" src="assets/icons/mobile/menu-hamburger.svg" alt="Ícone de menu hamburguer">
+
+                <img class="logo" src="assets/images/logotipo-gamer.svg" alt="Ícone gamer">
+
+                <nav class="menu" id="menu">
+                    <a href="index.html">Início</a>
+                    <a href="jogadores.html">Jogadores</a>
+                    <a href="equipes.html">Equipes</a>
+                    <!-- <a href="">Notícias</a> -->
+                    
+                    <!-- Visível apenas no MOBILE -->
+                    <a class="phone">
+                        <img src="assets/icons/telephone.svg" alt="Ícone de telefone sobre contato">
+                        <p>(11) 0900-1010</p>
+                    </a>
+                    <a class="email">
+                        <img src="assets/icons/email.svg" alt="Ícone de email sobre contato">
+                        <p>contato@gamer.com.br</p>
+                    </a>
+                    
+                    <div class="redes-sociais">
+                        <a href=""><img src="assets/icons/facebook.svg" alt="Ícone link do Facebook da empresa"></a>
+                        <a href=""><img src="assets/icons/linkedin.svg" alt="Ícone link do LinkedIn da empresa"></a>
+                        <a href=""><img src="assets/icons/instagram.svg" alt="Ícone link do Instagram da empresa"></a>
+                    </div>
+                </nav>
+                
+                <img onclick="mostrarMenuUsuario()" class="menu-user" src="assets/icons/mobile/more-items.svg" alt="Ícone de mais opções">
+
+                <div class="user-menu" id="user-menu">
+                    <a href="login.html"><img src="assets/icons/person.svg" alt="Ícone link do perfil do usuário"></a>
+                    <a href=""><img src="assets/icons/bag.svg" alt="Ícone link d do usuário"></a>
+                    <a href=""><img src="assets/icons/search.svg" alt="Ícone link do perfil do usuário"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="equipes">
+            <div class="grid-layout equipes-flex">
+                <form class="box-formulario" action="">
+                    <h1 class="form-title">Cadastro de equipes</h1>
+
+                    <div class="input-area">
+                        <div class="form-input">
+                            <input type="number" id="id-equipe" placeholder="Digite seu e-mail:">
+                        </div>
+                        <div class="form-input">
+                            <input type="password" id="senha" placeholder="Digite sua senha:">
+                        </div>
+
+                        <div class="form-file-input">
+                            <label for="foto-input" id="foto-label">Imagem da Equipe</label>
+                            <input type="file" name="foto-input" id="foto-input">
+                            <p class="imagem-texto">Nenhuma imagem selecionada</p>
+                        </div>
+                    </div>
+
+                    <button>Cadastrar</button>
+                </form>
+
+                <article class="tabela">
+                    <div class="classificacoes">
+                        <p class="id">Id</p>
+                        <p class="nome">Nome</p>
+                        <p class="foto">Foto</p>
+                    </div>
+                    <hr class="linha-classif">
+
+                    <div class="equipe-box">
+                        <p class="id">1</p>
+                        <hr class="vertical-divider">
+                        <p class="nome">Loud</p>
+                        <hr class="vertical-divider">
+                        <img class="foto" src="assets/images/equipes/logo-equipe.png" alt="Foto da equipe">
+                        <hr class="vertical-divider">
+                        <img class="apagar-equipe" src="assets/icons/equipes/trash.svg" alt="Ícone de lixeira">
+                    </div>
+                    <div class="equipe-box">
+                        <p class="id">2</p>
+                        <hr class="vertical-divider">
+                        <p class="nome">Loud</p>
+                        <hr class="vertical-divider">
+                        <img class="foto" src="assets/images/equipes/logo-equipe.png" alt="Foto da equipe">
+                        <hr class="vertical-divider">
+                        <img class="apagar-equipe" src="assets/icons/equipes/trash.svg" alt="Ícone de lixeira">
+                    </div>
+                    <div class="equipe-box">
+                        <p class="id">3</p>
+                        <hr class="vertical-divider">
+                        <p class="nome">Loud</p>
+                        <hr class="vertical-divider">
+                        <img class="foto" src="assets/images/equipes/logo-equipe.png" alt="Foto da equipe">
+                        <hr class="vertical-divider">
+                        <img class="apagar-equipe" src="assets/icons/equipes/trash.svg" alt="Ícone de lixeira">
+                    </div>
+                    <div class="equipe-box">
+                        <p class="id">4</p>
+                        <hr class="vertical-divider">
+                        <p class="nome">Loud</p>
+                        <hr class="vertical-divider">
+                        <img class="foto" src="assets/images/equipes/logo-equipe.png" alt="Foto da equipe">
+                        <hr class="vertical-divider">
+                        <img class="apagar-equipe" src="assets/icons/equipes/trash.svg" alt="Ícone de lixeira">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-gradient"></div>
+        <div class="grid-layout footer-flex">
+            <div class="footer-inicio">
+                <img class="logo" src="assets/images/logotipo-gamer.svg" alt="Ícone gamer">
+                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte a nossa equipe talentosa e altamente comprometida.</p>
+            </div>
+            <div class="redes-sociais">
+                <a class="rede-social-box" href="">
+                    <img src="./assets/icons/footer/facebook.svg" alt="">
+                </a>
+                <a class="rede-social-box" href="">
+                    <img src="./assets/icons/footer/linkedin.svg" alt="">
+                </a>
+                <a class="rede-social-box" href="">
+                    <img src="./assets/icons/footer/instagram.svg" alt="">
+                </a>
+            </div>
+            <div class="links-uteis">
+                <div class="footer-titulo">
+                    <h2>Links Úteis</h2>
+                    <hr>
+                </div>
+                <div class="links">
+                    <a class="link">
+                        <hr>
+                        <p>Início</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Jogadores</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Notícias</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Login</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Equipes</p>
+                    </a>
+                </div>
+            </div>
+            <div class="contatos">
+                <div class="footer-titulo">
+                    <h2>Contatos</h2>
+                    <hr>
+                </div>
+                <div class="contato">
+                    <p class="contato-topico">Localização:</p>
+                    <p class="contato-descricao">Rua Niterói, 180 - São Caetano do Sul - SP</p>
+                    <p class="contato-topico">Junte-se a nós:</p>
+                    <p class="contato-descricao">contato@gamer.com.br</p>
+                    <p class="contato-topico">Telefone:</p>
+                    <p class="contato-descricao">(11) 0900-1010</p>
+                </div>
+            </div>
+            <div class="newsletter">
+                <div class="footer-titulo">
+                    <h2>Newsletter</h2>
+                    <hr>
+                </div>
+                <form action="" class="newsletter-form">
+                    <input class="email-input" type="email" placeholder="Digite seu e-mail:">
+                    <button class="send-button">Enviar</button>
+                </form>
+            </div>
+            <p class="copyright-text">©Copyright2023-GamerJogosDigitais</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

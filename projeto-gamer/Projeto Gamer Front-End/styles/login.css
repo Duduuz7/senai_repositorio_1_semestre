@@ -1,0 +1,560 @@
+/* Fontes importadas */
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+/* Exemplos de uso das fontes:
+
+font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+/* Variáveis de ambiente */
+:root {
+    --cor-primaria: rgba(27, 20, 38, 1);
+    --cor-secundaria: rgba(249, 170, 1, 1);
+    --cor-de-fundo: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    --cor-da-borda: rgba(255, 255, 255, 0.3);
+
+    --altura-section: calc(100vh - 60px);
+}
+
+/* Reset de propriedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes genéricas */
+.grid-layout {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mostrar-menu {
+    left: 0 !important;
+    opacity: 1 !important;
+}
+
+.mostrar-menu-usuario {
+    right: 0 !important;
+    opacity: 1 !important;
+}
+
+body { background-color: darkslateblue; }
+
+/* ==== HEADER ==== */
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    color: white;
+    background-color: var(--cor-primaria);
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-user {
+    width: 30px;
+    height: 10px;
+}
+
+.menu-hamburger {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 86px;
+    height: 25px;
+}
+
+.header-top { height: 60px; }
+
+.header-bottom {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 86px;
+    height: 25px;
+}
+
+/* HEADER => Barra lateral */
+.menu {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    z-index: 101;
+    width: 80vw;
+    height: var(--altura-section);
+    background-image: var(--cor-de-fundo);
+    backdrop-filter: blur(25px);
+    border-image: var(--cor-da-borda);
+
+    display: flex;
+    flex-direction: column;
+
+    opacity: 0;
+    transition: left 0.4s, opacity 0.6s;
+}
+
+/* Propriedade Align Self */
+
+.menu > a {
+    color: white;
+    border-bottom: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 20px;
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu > a:hover { color: orange; }
+
+.menu .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 8px;
+}
+
+.menu a:last-of-type { border: none; }
+
+/* HEADER => Barra lateral - mais usuários */
+.user-menu {
+    position: fixed;
+    top: 60px;
+    right: -20vw;
+    width: 20vw;
+    height: 30vh;
+    background-image: var(--cor-de-fundo);
+    backdrop-filter: blur(25px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    opacity: 0;
+    transition: right 0.3s, opacity 0.6s;
+}
+
+.header-top, .menu-bar, .menu-user-bar {
+    display: none;
+}
+
+
+/* MAIN */
+
+main{ 
+    width: 100%;
+    padding-top: 60px;
+}
+
+.login{
+    background-image: url(../assets/images/login/banner-login.png);
+    width: 100%;
+    height: 687px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-flex{
+    display: flex;
+    align-items: center;
+}
+
+.login .box-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    height: 460px;
+    border: 1px solid grey;
+    /* border-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); */
+    /* border-image-slice: 1; */
+    background-image: linear-gradient(to right bottom,  rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+    border-radius: 8px;
+    backdrop-filter:blur(10px);   
+}
+
+.login .form-title {
+    font-family: Titillium-Web-Bold;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: white;
+    border-top: 2px solid #F9AA01;
+}
+
+.form-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: 85%;
+    height: 40px;
+    border: 1px solid grey;
+    /* border-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); */
+    /* border-image-slice: 1; */
+    background-image: linear-gradient(to right , rgba(255, 255, 255, 0.6), rgba(239, 239, 239, 0.1) );
+    border-radius: 8px;
+    backdrop-filter: blur(6px);
+}
+
+.form-input input {
+    width: 88%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.form-input input::placeholder {
+    color: white;
+    font-family: Titillium-Web; 
+    font-style: normal;
+    font-size: 16px;
+}
+
+#senha{
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#email{
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+
+button {
+    font-family: Titillium-Web-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F9AA01;
+}
+
+/* FOOTER */
+footer {
+    height: 1230px;
+    background-image: url(../assets/images/backgroung_footer.png);
+    position: relative;
+    z-index: 10;
+}
+
+.footer-gradient {
+    position: absolute;
+    top: -3px;
+    z-index: 11;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(27, 20, 38, 0.1));
+}
+
+.footer-flex {
+    height: 100%;
+    padding: 60px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 12;
+}
+
+.footer-titulo, .footer-inicio, .redes-sociais,
+.links-uteis, .contatos, .newsletter {
+    width: 100%;
+}
+
+footer .footer-titulo h2 {
+    font-family: Titillium-Web-Black;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    color: white;
+}
+
+footer .footer-titulo hr {
+    border-bottom: 3px solid var(--cor-secundaria);
+    width: calc(100% / 3);
+    margin-bottom: 45px;
+}
+
+footer .footer-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    /* background-image: linear-gradient(from top to bottom right, rgba(27, 20, 38, 0.5), rgba(27, 20, 38, 0.1)); */
+}
+
+.footer-inicio .logo {
+    width: 130px;
+    height: 38px;
+}
+
+.footer-inicio p {
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+}
+
+footer .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .redes-sociais .rede-social-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--cor-secundaria);
+}
+
+footer .links-uteis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-uteis .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 40px;
+}
+
+.links-uteis .link {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0 10px;
+}
+
+.links-uteis .link hr {
+    border: 1px solid var(--cor-secundaria);
+    width: 10px;
+    height: 1px;
+}
+
+.links-uteis .link p {
+    font-family: Titillium-Web;
+    font-size: 18px;
+}
+
+.contatos .contato {
+    font-family: Titillium-Web-Bold;
+    font-size: 17px;
+}
+
+.contato .contato-topico { color: var(--cor-secundaria); }
+.contato .contato-descricao { color: white; }
+
+
+footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter .newsletter-form {
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter-form .email-input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(239, 239, 239, 0.5), rgba(239, 239, 239, 0.2));
+}
+
+.newsletter-form .send-button {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--cor-secundaria);
+    font-family: Titillium-Web-Bold;
+    font-size: 24px;
+}
+
+.newsletter-form .email-input::placeholder {
+    color: white;
+    font-family: Titillium-Web;
+    font-size: 16px;
+}
+
+footer .copyright-text {
+    font-family: Titillium-Web;
+    color: white;
+    font-size: 16px;
+}
+
+/* Seta para voltar ao início */
+#up-button {
+    height: 40px;
+    width: 40px;
+    padding-top: 2px;
+    border-radius: 20px;
+    background-color: var(--cor-secundaria);
+    border: 0.1px solid var(--cor-primaria);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 15;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+/* MEDIA QUERY */
+
+/* Tablet (>= 768px) */
+@media screen and (min-width: 768px) {}
+
+/* Desktop (>= 1200px) */
+@media screen and (min-width: 1200px) {
+    .grid-layout {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .header-top {
+        display: flex;
+        border-bottom: 1px solid var(--cor-secundaria);
+    }
+
+    .header-top .contacts {
+        width: 410px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-top .contacts > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contacts .email { width: 190px; }
+    .contacts .phone { width: 140px; }
+
+    .header-top .contacts, .contacts .phone, .contacts .email {
+        display: flex;
+    }
+
+    .header-top .redes-sociais {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 8px;
+    }
+
+    .header-bottom { height: 75px; }
+
+    .header-bottom .menu {
+        width: 410px;
+        height: auto;
+        position: static;
+        opacity: 1;
+        z-index: none;
+        transition: none;
+        background-image: none;
+        background-color: transparent;
+        backdrop-filter: none;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-bottom .menu > a {
+        border: none;
+    }
+
+    .header-bottom .user-menu {
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+        opacity: 1;
+        transition: none;
+    }
+
+    .header-bottom .logo {
+        width: 200px;
+        height: 55px;
+    }
+
+    /* Esconde os elementos desnecessários */
+    .menu-hamburger, .menu-user,
+    .menu .phone, .menu .email,
+    .menu .redes-sociais {
+        display: none;
+    }
+}

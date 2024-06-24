@@ -1,0 +1,43 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Editar Jogador";
+}
+
+<link rel="stylesheet" href="~/css/jogador.css">
+
+<main>
+
+    @if (string.IsNullOrEmpty(ViewBag.UserName)) {
+        <h1>Editar Jogador</h1>
+        <h2>Faça login para ter acesso a página</h2>
+        <a asp-area="" asp-controller="Login" asp-action="Index">Fazer Login</a>
+    } else {
+
+        <section class="container-grid cadastro-equipes">
+            <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data" class="frm-cad-equipe">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Jogadores</h1>
+                    <hr>
+                </div>
+
+                <input type="hidden" Name="IdJogador" value="@ViewBag.Jogador.IdJogador" required>
+                <input class="campo-entrada" type="text" id="nome-jogador" name="Nome" value="@ViewBag.Jogador.Nome" placeholder="Digite o nome do Jogador:" required>
+
+                <select class="campo-entrada" id="equipe-select" name="IdEquipe" required>
+                    <option style="background-color: #1B1426;" value="@ViewBag.Jogador.IdEquipe">@ViewBag.Jogador.Equipe.Nome</option>
+                    @foreach (Equipe equipe in ViewBag.Equipe) {
+                        if (equipe != @ViewBag.Jogador.Equipe) {
+                            <option style="background-color: #1B1426;" value="@equipe.IdEquipe">@equipe.Nome</option>
+                        }
+                    }
+                </select>
+        
+                <input class="campo-entrada" type="email" id="email-jogador" name="Email" value="@ViewBag.Jogador.Email" placeholder="Digite o Email do Jogador:" required>
+                <input class="campo-entrada" type="password" id="senha" name="Senha" value="@ViewBag.Jogador.Senha" placeholder="Digite a Senha:" required>
+                <button type="submit">Atualizar</button>
+            </form>
+        </section>
+    }
+
+</main>

@@ -1,0 +1,63 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Jogador";
+}
+
+<link rel="stylesheet" href="~/css/jogador.css">
+
+
+@if (string.IsNullOrEmpty(ViewBag.UserName)) {
+    <h1>Tela de Jogadores</h1>
+    <h2>Faça login para ter acesso a página</h2>
+    <a asp-area="" asp-controller="Login" asp-action="Index">Fazer Login</a>
+} else {
+    <main>
+        <section class="container-grid cadastro-equipes">
+            <form method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data" class="frm-cad-equipe">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Jogadores</h1>
+                    <hr>
+                </div>
+                <input class="campo-entrada" type="text" id="nome-jogador" name="Nome" placeholder="Digite o nome do Jogador:" required>
+        
+                <select class="campo-entrada" id="equipe-select" name="IdEquipe" required>
+                    <option style="background-color: #1B1426;" value="">Selecione uma Equipe</option>
+                    @foreach (Equipe equipe in ViewBag.Equipe) {
+                        <option style="background-color: #1B1426;" value="@equipe.IdEquipe">@equipe.Nome</option>
+                    }
+                </select>
+        
+                <input class="campo-entrada" type="email" id="email-jogador" name="Email" placeholder="Digite o Email do Jogador:" required>
+                <input class="campo-entrada" type="password" id="senha" name="Senha" placeholder="Digite a Senha:" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            @* <!-- TABELA CADASTRO DE JOGADORES --> *@
+            <table class="table table-striped table-responsive">
+                <thead>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Equipe</th>
+                    <th>Ações</th>
+                </thead>
+                <tbody>
+                    @foreach (Jogador jogador in ViewBag.Jogador) {
+                        <tr>
+                            <td>@jogador.IdJogador</td>
+                            <td>@jogador.Nome</td>
+                            <td>@jogador.Email</td>
+                            <td>
+                                <img src="~/img/Equipe/@jogador.Equipe.Imagem" alt="Foto da equipe" width="50px">
+                            </td>
+                            <td style="display: flex; gap: 20px">
+                                <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador"><img width="30px" src="~/assets/edit.svg" alt=""></a>
+                                <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jogador.IdJogador"><img class="yellow-trash" src="~/assets/trash.png" alt=""></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </section>
+    </main>
+}

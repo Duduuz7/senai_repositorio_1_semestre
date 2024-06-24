@@ -1,0 +1,681 @@
+/* Fontes importadas */
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+/* Exemplos de uso das fontes:
+
+font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+/* Variáveis de ambiente */
+:root {
+    --cor-primaria: rgba(27, 20, 38, 1);
+    --cor-secundaria: rgba(249, 170, 1, 1);
+    --cor-de-fundo: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    --cor-da-borda: rgba(255, 255, 255, 0.3);
+
+    --altura-section: calc(100vh - 60px);
+}
+
+/* Reset de propriedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes genéricas */
+.grid-layout {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mostrar-menu {
+    left: 0 !important;
+    opacity: 1 !important;
+}
+
+.mostrar-menu-usuario {
+    right: 0 !important;
+    opacity: 1 !important;
+}
+
+body { background-color: darkslateblue; }
+
+/* ==== HEADER ==== */
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    color: white;
+    background-color: var(--cor-primaria);
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-user {
+    width: 30px;
+    height: 10px;
+}
+
+.menu-hamburger {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 86px;
+    height: 25px;
+}
+
+.header-top { height: 60px; }
+
+.header-bottom {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 86px;
+    height: 25px;
+}
+
+/* HEADER => Barra lateral */
+.menu {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    z-index: 101;
+    width: 80vw;
+    height: var(--altura-section);
+    background-image: var(--cor-de-fundo);
+    backdrop-filter: blur(25px);
+    border-image: var(--cor-da-borda);
+
+    display: flex;
+    flex-direction: column;
+
+    opacity: 0;
+    transition: left 0.4s, opacity 0.6s;
+}
+
+/* Propriedade Align Self */
+
+.menu > a {
+    color: white;
+    border-bottom: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 20px;
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu > a:hover { color: orange; }
+
+.menu .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 8px;
+}
+
+.menu a:last-of-type { border: none; }
+
+/* HEADER => Barra lateral - mais usuários */
+.user-menu {
+    position: fixed;
+    top: 60px;
+    right: -20vw;
+    width: 20vw;
+    height: 30vh;
+    background-image: var(--cor-de-fundo);
+    backdrop-filter: blur(25px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    opacity: 0;
+    transition: right 0.3s, opacity 0.6s;
+}
+
+.header-top, .menu-bar, .menu-user-bar {
+    display: none;
+}
+
+
+/* MAIN */
+
+main{
+    width: 100%;
+    padding-top: 60px;
+}
+
+.equipes{
+    height: 1200px;
+    width: 100%;
+    background-image: url(../assets/images/equipes/banner-equipes.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipes-flex{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.equipes .box-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 460px;
+    border: 1px solid grey;
+    background-image: linear-gradient(to right bottom,  rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+    border-radius: 8px;
+    backdrop-filter: blur(10px);   
+}
+
+.equipes .form-title {
+    font-family: Titillium-Web-Black;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 3px solid #F9AA01;
+}
+
+.input-area {
+    width: 85%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    background: linear-gradient(to right , rgba(255, 255, 255, 0.6), rgba(239, 239, 239, 0.1)) content-box;
+    border-radius: 8px;
+}
+
+.form-input input { width: 88%; }
+
+.form-input input::placeholder {
+    color: white;
+    font-family: Titillium-Web;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.form-file-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#senha, #id-equipe {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#foto {
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(217, 217, 217, 1);
+    font-family: Titillium-Web-Bold;
+    font-size: 13px;
+    color: var(--cor-primaria);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-file-input #foto-label {
+    background-color: rgba(217, 217, 217, 1);
+    color: var(--cor-primaria);
+    font-family: Titillium-Web-Bold;
+    font-size: 13px;
+
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-file-input #foto-input[type="file"] {
+    display: none;
+}
+
+.form-file-input .imagem-texto {
+    color: white;
+    font-size: 10px;
+    font-family: Titillium-Web;
+}
+
+button {
+    font-family: Titillium-Web-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F9AA01;
+}
+
+
+/* TABELA */
+.tabela {
+    width: 100%;
+    height: 380px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.classificacoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.classificacoes p {
+    font-family: Titillium-Web-Black;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--cor-secundaria);
+    text-shadow: black 2px 0 10px;
+}
+
+.classificacoes .id {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.classificacoes .nome {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.classificacoes .foto {
+    width: 35%;
+    padding-left: 5px;
+}
+
+.linha-classif {
+    width: 100%;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.equipes-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* BOX TABELA */
+.equipe-box {
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.8), rgba(60, 3, 65, 0.5)) content-box,
+    linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) border-box;
+    backdrop-filter: blur(4px);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Titillium-Web-Bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.vertical-divider {
+    height: 60%;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.equipe-box .id { margin-left: 15px; }
+.equipe-box .nome { width: 35%; }
+.equipe-box .apagar-equipe { margin-right: 15px; }
+
+
+/* FOOTER */
+footer {
+    height: 1230px;
+    background-image: url(../assets/images/backgroung_footer.png);
+    position: relative;
+    z-index: 10;
+}
+
+.footer-gradient {
+    position: absolute;
+    top: -3px;
+    z-index: 11;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(27, 20, 38, 0.1));
+}
+
+.footer-flex {
+    height: 100%;
+    padding: 60px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 12;
+}
+
+.footer-titulo, .footer-inicio, .redes-sociais,
+.links-uteis, .contatos, .newsletter {
+    width: 100%;
+}
+
+footer .footer-titulo h2 {
+    font-family: Titillium-Web-Black;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    color: white;
+}
+
+footer .footer-titulo hr {
+    border-bottom: 3px solid var(--cor-secundaria);
+    width: calc(100% / 3);
+    margin-bottom: 45px;
+}
+
+footer .footer-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    /* background-image: linear-gradient(from top to bottom right, rgba(27, 20, 38, 0.5), rgba(27, 20, 38, 0.1)); */
+}
+
+.footer-inicio .logo {
+    width: 130px;
+    height: 38px;
+}
+
+.footer-inicio p {
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+}
+
+footer .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .redes-sociais .rede-social-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--cor-secundaria);
+}
+
+footer .links-uteis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-uteis .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 40px;
+}
+
+.links-uteis .link {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0 10px;
+}
+
+.links-uteis .link hr {
+    border: 1px solid var(--cor-secundaria);
+    width: 10px;
+    height: 1px;
+}
+
+.links-uteis .link p {
+    font-family: Titillium-Web;
+    font-size: 18px;
+}
+
+.contatos .contato {
+    font-family: Titillium-Web-Bold;
+    font-size: 17px;
+}
+
+.contato .contato-topico { color: var(--cor-secundaria); }
+.contato .contato-descricao { color: white; }
+
+
+footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter .newsletter-form {
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter-form .email-input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(239, 239, 239, 0.5), rgba(239, 239, 239, 0.2));
+}
+
+.newsletter-form .send-button {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--cor-secundaria);
+    font-family: Titillium-Web-Bold;
+    font-size: 24px;
+}
+
+.newsletter-form .email-input::placeholder {
+    color: white;
+    font-family: Titillium-Web;
+    font-size: 16px;
+}
+
+footer .copyright-text {
+    font-family: Titillium-Web;
+    color: white;
+    font-size: 16px;
+}
+
+/* Seta para voltar ao início */
+#up-button {
+    height: 40px;
+    width: 40px;
+    padding-top: 2px;
+    border-radius: 20px;
+    background-color: var(--cor-secundaria);
+    border: 0.1px solid var(--cor-primaria);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 15;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+/* MEDIA QUERY */
+
+/* Tablet (>= 768px) */
+@media screen and (min-width: 768px) {}
+
+/* Desktop (>= 1200px) */
+@media screen and (min-width: 1200px) {
+    .grid-layout {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .header-top {
+        display: flex;
+        border-bottom: 1px solid var(--cor-secundaria);
+    }
+
+    .header-top .contacts {
+        width: 410px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-top .contacts > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contacts .email { width: 190px; }
+    .contacts .phone { width: 140px; }
+
+    .header-top .contacts, .contacts .phone, .contacts .email {
+        display: flex;
+    }
+
+    .header-top .redes-sociais {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 8px;
+    }
+
+    .header-bottom { height: 75px; }
+
+    .header-bottom .menu {
+        width: 410px;
+        height: auto;
+        position: static;
+        opacity: 1;
+        z-index: none;
+        transition: none;
+        background-image: none;
+        background-color: transparent;
+        backdrop-filter: none;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-bottom .menu > a {
+        border: none;
+    }
+
+    .header-bottom .user-menu {
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+        opacity: 1;
+        transition: none;
+    }
+
+    .header-bottom .logo {
+        width: 200px;
+        height: 55px;
+    }
+
+    /* Esconde os elementos desnecessários */
+    .menu-hamburger, .menu-user,
+    .menu .phone, .menu .email,
+    .menu .redes-sociais {
+        display: none;
+    }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Projeto Gamer ASP.NET MVC.props" />
+</Project>

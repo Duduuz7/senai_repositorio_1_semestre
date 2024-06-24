@@ -1,0 +1,804 @@
+/* Fontes importadas */
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Web-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+/* Exemplos de uso das fontes:
+
+font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+/* Variáveis de ambiente */
+:root {
+    --cor-primaria: rgba(27, 20, 38, 1);
+    --cor-secundaria: rgba(249, 170, 1, 1);
+    --cor-de-fundo: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    --cor-da-borda: rgba(255, 255, 255, 0.3);
+
+    --altura-section: calc(100vh - 60px);
+}
+
+/* Reset de propriedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes genéricas */
+.grid-layout {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mostrar-menu {
+    left: 0 !important;
+    opacity: 1 !important;
+}
+
+.mostrar-menu-usuario {
+    right: 0 !important;
+    opacity: 1 !important;
+}
+
+body { background-color: darkslateblue; }
+
+/* ==== HEADER ==== */
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    color: white;
+    background-color: var(--cor-primaria);
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-user {
+    width: 30px;
+    height: 10px;
+}
+
+.menu-hamburger {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 86px;
+    height: 25px;
+}
+
+.header-top { height: 60px; }
+
+.header-bottom {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 86px;
+    height: 25px;
+}
+
+/* HEADER => Barra lateral */
+.menu {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    z-index: 101;
+    width: 80vw;
+    height: var(--altura-section);
+    background-image: var(--cor-de-fundo);
+    backdrop-filter: blur(25px);
+    border-image: var(--cor-da-borda);
+
+    display: flex;
+    flex-direction: column;
+
+    opacity: 0;
+    transition: left 0.4s, opacity 0.6s;
+}
+
+/* Propriedade Align Self */
+
+.menu > a {
+    color: white;
+    border-bottom: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 20px;
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu > a:hover { color: orange; }
+
+.menu .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 8px;
+}
+
+.menu a:last-of-type { border: none; }
+
+/* HEADER => Barra lateral - mais usuários */
+.user-menu {
+    position: fixed;
+    top: 60px;
+    right: -20vw;
+    width: 20vw;
+    height: 30vh;
+    background-image: var(--cor-de-fundo);
+    backdrop-filter: blur(25px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    opacity: 0;
+    transition: right 0.3s, opacity 0.6s;
+}
+
+.header-top, .menu-bar, .menu-user-bar {
+    display: none;
+}
+
+/* MAIN */
+main {
+    padding-top: 60px;
+}
+
+main .banner {
+    background-image: url(../assets/images/banner-valorant-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: var(--altura-section);
+}
+
+.banner-flex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner h1 {
+    font-family: Titillium-Web-Black, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-shadow: rgba(253, 66, 85, 1) 1px 0 10px;
+    margin-top: 18px;
+}
+
+.banner button {
+    height: 40px;
+    width: 170px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(249, 170, 1, 1);
+    color: var(--cor-primaria);
+    font-family: Titillium-Web-Bold, sans-serif;
+    font-size: 24px;
+}
+
+/* JOGOS */
+main .jogos {
+    height: var(--altura-section);
+    background-color: var(--cor-primaria);
+}
+
+.jogos-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.jogos .card-jogos {
+    width: 335px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-card {
+    width: 100%;
+    height: 30%;
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    border: 2px solid var(--cor-da-borda);
+
+    display: flex;
+    align-items: center;
+}
+
+.retangulo-card {
+    width: 190px;
+    height: 40px;
+    background-color: var(--cor-secundaria);
+    transform: skew(-45deg);
+    margin-left: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retangulo-card p {
+    transform: skew(45deg);
+    font-family: Titillium-Web-Bold;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.fifa {
+    background-image: url(../assets/images/fifa-banner.png);
+    alt: "Imagem do jogo fifa 2023";
+}
+
+.csgo {
+    background-image: url(../assets/images/csgo-banner.png);
+    alt: "Imagem do jogo counter strike";
+}
+
+/* PROGAMER */
+main .progamer {
+    height: 1500px;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.progamer .card-flex {
+    padding: 0 20px;
+    margin: auto 0;
+}
+
+.progamer .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progamer h1 {
+    font-family: Titillium-Web-Black, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.progamer hr {
+    width: 70%;
+    border-bottom: 2px solid black;
+}
+
+.progamer .widgets-progamer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1030px;
+}
+
+.progamer .card-progamer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 300px;
+    border-radius: 8px;
+    padding-top: 10px;
+    gap: 20px;
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.3), rgba(47, 7, 109, 0.83));
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.progamer .card-progamer img {
+    width: 100px;
+    height: 100px;
+}
+
+.progamer .card-progamer h3 {
+    font-family: Titillium-Web-Black;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: white;
+    text-shadow: rgba(198, 165, 229, 1) 1px 0 10px;
+}
+
+.progamer .card-progamer p {
+    font-family: Quicksand;
+    font-size: 13px;
+    color: white;
+    text-align: justify;
+}
+
+.widget-jogos, .widget-professores { position: relative; }
+
+.widget-jogos .card-killjoy {
+    position: absolute;
+    z-index: 2;
+    top: 135px;
+    right: 0;
+}
+
+.widget-professores .card-jinx {
+    position: absolute;
+    z-index: 2;
+    top: 110px;
+    left: 0;
+}
+
+/* NOTÍCIAS */
+main .noticias {
+    background-image: url(../assets/images/noticias/background-noticias.png);
+    height: 3675px;
+
+    /* avaliar se o flex é necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticias .titulo {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticias .titulo h1 {
+    font-family: Titillium-Web-Black;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.noticias .titulo hr {
+    border-color: var(--cor-secundaria);
+    width: 50vw;
+}
+
+.noticia-flex {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticias .card-noticia {
+    height: 390px;
+    background-image: linear-gradient(to bottom right, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.79));
+    border-radius: 8px;
+    margin-top: 45px;
+}
+
+.card-noticia h3 {
+    padding: 0 20px;
+    color: white;
+    font-family: Titillium-Web-Bold;
+    font-size: 24px;
+}
+
+.card-noticia p {
+    padding: 0 20px;
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+}
+
+.card-noticia img { width: 100%; }
+
+/* FOOTER */
+footer {
+    height: 1230px;
+    background-image: url(../assets/images/backgroung_footer.png);
+    position: relative;
+    z-index: 10;
+}
+
+.footer-gradient {
+    position: absolute;
+    top: -3px;
+    z-index: 11;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(27, 20, 38, 0.1));
+}
+
+.footer-flex {
+    height: 100%;
+    padding: 60px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 12;
+}
+
+.footer-titulo, .footer-inicio, .redes-sociais,
+.links-uteis, .contatos, .newsletter {
+    width: 100%;
+}
+
+footer .footer-titulo h2 {
+    font-family: Titillium-Web-Black;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    color: white;
+}
+
+footer .footer-titulo hr {
+    border-bottom: 3px solid var(--cor-secundaria);
+    width: calc(100% / 3);
+    margin-bottom: 45px;
+}
+
+footer .footer-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    /* background-image: linear-gradient(from top to bottom right, rgba(27, 20, 38, 0.5), rgba(27, 20, 38, 0.1)); */
+}
+
+.footer-inicio .logo {
+    width: 130px;
+    height: 38px;
+}
+
+.footer-inicio p {
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+}
+
+footer .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .redes-sociais .rede-social-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--cor-secundaria);
+}
+
+footer .links-uteis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-uteis .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 40px;
+}
+
+.links-uteis .link {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0 10px;
+}
+
+.links-uteis .link hr {
+    border: 1px solid var(--cor-secundaria);
+    width: 10px;
+    height: 1px;
+}
+
+.links-uteis .link p {
+    font-family: Titillium-Web;
+    font-size: 18px;
+}
+
+.contatos .contato {
+    font-family: Titillium-Web-Bold;
+    font-size: 17px;
+}
+
+.contato .contato-topico { color: var(--cor-secundaria); }
+.contato .contato-descricao { color: white; }
+
+
+footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter .newsletter-form {
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter-form .email-input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(239, 239, 239, 0.5), rgba(239, 239, 239, 0.2));
+}
+
+.newsletter-form .send-button {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--cor-secundaria);
+    font-family: Titillium-Web-Bold;
+    font-size: 24px;
+}
+
+.newsletter-form .email-input::placeholder {
+    color: white;
+    font-family: Titillium-Web;
+    font-size: 16px;
+}
+
+footer .copyright-text {
+    font-family: Titillium-Web;
+    color: white;
+    font-size: 16px;
+}
+
+/* Seta para voltar ao início */
+#up-button {
+    height: 40px;
+    width: 40px;
+    padding-top: 2px;
+    border-radius: 20px;
+    background-color: var(--cor-secundaria);
+    border: 0.1px solid var(--cor-primaria);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 15;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+/* Tablet (>= 768px) */
+@media screen and (min-width: 768px) {}
+
+/* Desktop (>= 1200px) */
+@media screen and (min-width: 1200px) {
+    .grid-layout {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .header-top {
+        display: flex;
+        border-bottom: 1px solid var(--cor-secundaria);
+    }
+
+    .header-top .contacts {
+        width: 410px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-top .contacts > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contacts .email { width: 190px; }
+    .contacts .phone { width: 140px; }
+
+    .header-top .contacts, .contacts .phone, .contacts .email {
+        display: flex;
+    }
+
+    .header-top .redes-sociais {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 8px;
+    }
+
+    .header-bottom { height: 75px; }
+
+    .header-bottom .menu {
+        width: 410px;
+        height: auto;
+        position: static;
+        opacity: 1;
+        z-index: none;
+        transition: none;
+        background-image: none;
+        background-color: transparent;
+        backdrop-filter: none;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-bottom .menu > a {
+        border: none;
+    }
+
+    .header-bottom .user-menu {
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+        opacity: 1;
+        transition: none;
+    }
+
+    .header-bottom .logo {
+        width: 200px;
+        height: 55px;
+    }
+
+    /* Esconde os elementos desnecessários */
+    .menu-hamburger, .menu-user,
+    .menu .phone, .menu .email,
+    .menu .redes-sociais {
+        display: none;
+    }
+
+    /* MAIN */
+    /* BANNER */
+
+    main .banner {
+        padding-top: 60px;
+        background-image: url(../assets/images/banner-valorant-desktop.png);
+    }
+
+    .banner h1 { font-size: 80px; }
+    .banner button { width: 200px; }
+
+    /* JOGOS */
+    main .jogos-flex { flex-direction: row; }
+
+    .jogos .card-jogos {
+        width: 550px;
+        height: 310px;
+    }
+
+    .jogos .card-jogos .retangulo-card {
+        width: 250px;
+        height: 40px;
+    }
+
+    /* PROGAMER */
+
+    .progamer {
+        height: 700px;
+    }
+
+    .progamer .widgets-progamer {
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+    }
+
+    .progamer .card-progamer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 230px;
+        height: 300px;
+        border-radius: 8px;
+        padding-top: 10px;
+        gap: 20px;
+        background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.3), rgba(47, 7, 109, 0.83));
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(5px);
+    }
+    
+    .progamer .card-progamer img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .progamer .card-progamer h3 {
+        font-family: Titillium-Web-Black;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        color: white;
+        text-shadow: rgba(198, 165, 229, 1) 1px 0 10px;
+    }
+    
+    .progamer .card-progamer p {
+        font-family: Quicksand;
+        font-size: 13px;
+        color: white;
+        text-align: justify;
+    }
+    
+    .widget-jogos, .widget-professores { position: relative; }
+    
+    .widget-jogos .card-killjoy {
+        position: absolute;
+        z-index: 2;
+        top: 135px;
+        right: 0;
+    }
+    
+    .widget-professores .card-jinx {
+        position: absolute;
+        z-index: 2;
+        top: 110px;
+        left: 0;
+    }
+}

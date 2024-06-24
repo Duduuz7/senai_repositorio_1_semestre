@@ -1,0 +1,54 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Jogador";
+}
+
+<h1>Tela de Jogadores</h1>
+
+<form method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
+    <label for="">Nome</label>
+    <input type="text" Name="Nome" required>
+
+    <label for="">Email</label>
+    <input type="email" name="Email" required>
+
+    <label for="">Senha</label>
+    <input type="password" name="Senha" required>
+
+    <select name="IdEquipe" required>
+        <option value="">Selecione uma equipe</option>
+        @foreach (Equipe equipe in ViewBag.Equipe) {
+            <option value="@equipe.IdEquipe">@equipe.Nome</option>
+        }
+    </select>
+    <button type="submit">Cadastrar</button>
+</form>
+
+<table class="table table-striped table-responsive">
+    <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Equipe</th>
+        <th>Ações</th>
+    </thead>
+    <tbody>
+        @foreach (Jogador jogador in ViewBag.Jogador) {
+            <tr>
+                <td>@jogador.IdJogador</td>
+                <td>@jogador.Nome</td>
+                <td>@jogador.Email</td>
+                <td>
+                    <img src="/img/Equipe/@jogador.Equipe.Imagem" alt="" width="60px">
+                    
+                    @* <p>Imagem</p> *@
+                </td>
+                <td>
+                    <a style="text-decoration: none; color:black; border: 2px solid black; border-radius: 5px; padding: 4px 6px" asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador">Editar</a>
+                    <a style="text-decoration: none; color:black; border: 2px solid black; border-radius: 5px; padding: 4px 6px" asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jogador.IdJogador">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,56 @@
+@model Equipe
+
+@{
+    ViewData["Title"] = "Equipe";
+}
+
+<link rel="stylesheet" href="~/css/equipe.css">
+
+<!-- MAIN -->
+<main>
+
+    <section class="container-grid cadastro-equipes">
+        
+        
+        <form class="frm-cad-equipe" method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data" style="display:flex; gap:20px">
+            <div class="cadequipe-titulo">
+                <h1>Cadastro de Equipes</h1>
+                <hr>
+            </div>
+
+            <input class="campo-entrada" type="text" name="Nome" placeholder="Digite o nome da sua equipe:" required>
+            <label class="foto" for="foto-file">
+                Nenhuma imagem selecionada...
+                <input class="foto" type="file" id="foto-file">
+            </label>
+            
+            <button type="submit">Cadastro</button>
+        </form>
+
+        <!-- TABELA CADASTRO DE EQUIPES -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Foto</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Equipe equipe in ViewBag.Equipe) {
+                    <tr>
+                        <td>@equipe.IdEquipe</td>
+                        <td>@equipe.Nome</td>
+                        <td><img class="green-play" src="~/img/Equipe/@equipe.Imagem" alt=""></td>
+                        <td style="display: flex; gap: 20px">
+                            <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe"><img width="30px" src="~/assets/edit.svg" alt=""></a>
+                            <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe"><img class="yellow-trash" src="~/assets/trash.png" alt=""></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </section>
+</main>
